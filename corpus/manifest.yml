@@ -1,0 +1,91 @@
+schema_version: 1
+
+# Provenienza del testo. Le quattro cose che questo progetto tiene distinte:
+#   1. l'opera originale di Simone Weil;
+#   2. la trascrizione digitale della fonte (Wikisource);
+#   3. la nuova traduzione italiana, ancora da realizzare;
+#   4. il codice del progetto.
+# Si veda LICENSE per i termini che valgono per ciascuna.
+
+opera:
+  titolo: L’Iliade ou le poème de la force
+  titolo_it: L’Iliade, o il poema della forza
+  autrice: Simone Weil
+  lingua_originale: fr
+  prima_pubblicazione:
+    sede: Les Cahiers du Sud
+    quando: dicembre 1940 e gennaio 1941
+    nota: >-
+      Pubblicato in due puntate, con lo pseudonimo Émile Novis, mentre Simone
+      Weil si trovava a Marsiglia.
+
+edizione_di_riferimento:
+  titolo: La Source grecque
+  editore: Gallimard
+  luogo: Paris
+  anno: 1953
+  pagine: 11-42
+  nota: >-
+    Raccolta postuma in cui il saggio è stato ristampato; è l'edizione da cui
+    dipende la trascrizione digitale usata qui. Non è l'edizione originale del
+    saggio, che è quella dei «Cahiers du Sud» del 1940-1941.
+
+trascrizione_digitale:
+  nome: Wikisource francese
+  stato: testo validato
+  pagina: La Source grecque/01/L’Iliade, ou le poème de la force
+  url: https://fr.wikisource.org/wiki/La_Source_grecque/01/L%E2%80%99Iliade,_ou_le_po%C3%A8me_de_la_force
+  licenza: CC BY-SA 4.0
+  nota: >-
+    Il Markdown francese e la sua rappresentazione strutturata sono stati
+    consegnati al progetto già derivati da questa trascrizione. Il progetto non
+    interroga direttamente Wikisource: non c'è quindi un identificativo di
+    revisione, e i dati qui sopra sono quelli dichiarati nel front matter del
+    file francese.
+
+traduzione_italiana:
+  titolo: L’Iliade, o il poema della forza
+  autori: GPT-5.6 Sol, con l'ausilio di Claude Opus 5.0
+  # Stesso vocabolario del campo `stato_traduzione` nel front matter di
+  # corpus/it/, che scripts/validate_corpus.py tiene allineato al file.
+  stato: tradotto
+  licenza: CC BY-SA 4.0
+  criteri: >-
+    Traduzione integrale e nuova, condotta sul francese; nessuna traduzione
+    italiana preesistente è stata usata. Ortografia, lessico, punteggiatura e
+    corsivi seguono il testo di partenza, senza modernizzazioni. Le citazioni
+    omeriche sono tradotte dal francese e non dal greco, conservando gli a-capo
+    verso per verso.
+  glossario:
+    malheur:
+      politica: contestuale
+      nota: >-
+        Termine concettualmente marcato in Simone Weil, e centrale in questo
+        saggio: va esaminato nel contesto, mai risolto con una sostituzione
+        automatica.
+  nota: >-
+    `da_tradurre` finché in `corpus/it/` resta anche un solo segnaposto;
+    `tradotto` quando non ne resta nessuno.
+
+# Struttura del testo, riscontrata da scripts/validate_corpus.py.
+struttura:
+  blocchi_totali: 200
+  titolo: 1
+  paragrafi_di_prosa: 139
+  citazioni_in_versi: 59
+  note_dell_autrice: 1
+  sezioni_editoriali: 10   # cesure redazionali, dichiarate in site/sezioni.yml
+
+# Impronte dei file: le aggiorna scripts/build_manifest.py, non si scrivono
+# a mano. `verificato_il` è la data dell'ultimo aggiornamento.
+verificato_il: '2026-08-28'
+file_del_corpus:
+  - file: corpus/fr/iliade-poeme-force.md
+    ruolo: testo francese, fonte testuale primaria
+    sha256: 76c388f75a935ba182ddf486c65ba1c1d6af5b6b9cc6b45fd90956b037aa0fd1
+  - file: corpus/fr/iliade-poeme-force.json
+    ruolo: rappresentazione strutturata del francese, usata come riscontro
+    sha256: 4346c7821875a62f22e943f324af7e708666b7ea2297ca0fca58d60d5855d76a
+  - file: corpus/it/iliade-poema-forza.md
+    ruolo: nuova traduzione italiana integrale
+    sha256: 857ba2b2abbf58be46e1ad85800c181f8f1642139ded2c93448befd08cf148f5

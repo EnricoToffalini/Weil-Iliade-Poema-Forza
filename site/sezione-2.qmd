@@ -1,0 +1,77 @@
+---
+title: "§ 2"
+pagetitle: "Sezione 2"
+description: "Sezione 2 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+La forza che uccide è una forma sommaria, grossolana della forza. Quanto più varia nei suoi procedimenti, quanto più sorprendente nei suoi effetti è l’altra forza, quella che non uccide; vale a dire, quella che non uccide ancora. Ucciderà sicuramente, oppure ucciderà forse, oppure rimane soltanto sospesa sull’essere che in ogni istante può uccidere; in ogni caso, trasforma l’uomo in pietra.
+
+Dal potere di trasformare un uomo in cosa facendolo morire procede un altro potere, e ben altrimenti prodigioso: quello di fare una cosa di un uomo che resta vivo. È vivo, ha un’anima; eppure è una cosa. Essere davvero strano, una cosa che ha un’anima; strano stato per l’anima.
+
+Chi dirà quanto le occorra, in ogni istante, per conformarvisi, torcersi e ripiegarsi su se stessa? Non è fatta per abitare una cosa; quando vi è costretta, non c’è più nulla in lei che non subisca violenza.
+
+Un uomo disarmato e nudo contro il quale si dirige un’arma diventa cadavere prima di essere colpito. Per un momento ancora progetta, agisce, spera:
+
+> Pensava, immobile. L’altro si avvicina, tutto atterrito,  
+> Ansioso di toccargli le ginocchia. Voleva nel suo cuore  
+> Sfuggire alla morte funesta, al nero destino…  
+> E con un braccio gli stringeva le ginocchia per supplicarlo,  
+> Con l’altro teneva la lancia aguzza senza lasciarla…
+
+Ma ben presto ha compreso che l’arma non devierà e, pur respirando ancora, non è più che materia; ancora pensante, non può più pensare nulla:
+
+> Così parlò quel figlio tanto splendido di Priamo  
+> Con parole di supplica. Udì una parola inflessibile:  
+> ....................  
+> Disse; all’altro cedono le ginocchia e il cuore;  
+> Lascia la lancia e cade seduto, con le mani tese,  
+> Entrambe le mani. Achille sguaina la spada aguzza,  
+> Colpisce alla clavicola, lungo il collo, e per intero  
+> Affonda la spada a doppio taglio. Lui, bocconi, a terra  
+> Giace disteso, e il sangue nero scorre inumidendo la terra.
+
+Quando, fuori da ogni combattimento, uno straniero debole e senz’armi supplica un guerriero, non è per questo condannato a morte; ma basterebbe un istante d’impazienza da parte del guerriero per togliergli la vita. È abbastanza perché la sua carne perda la proprietà principale della carne viva.
+
+Un pezzo di carne viva manifesta la vita anzitutto con un sussulto; una zampa di rana, sotto una scarica elettrica, sussulta; la vista ravvicinata o il contatto di una cosa orribile o terrificante fa sussultare qualunque ammasso di carne, nervi e muscoli. Solo un supplice in una simile condizione non trasale, non freme; non gli è più concesso; le sue labbra stanno per toccare l’oggetto che per lui è più carico d’orrore:
+
+> Non si vide entrare il grande Priamo. Si fermò,  
+> Strinse le ginocchia di Achille, baciò le sue mani,  
+> Terribili, assassine, che gli avevano massacrato tanti figli.
+
+Lo spettacolo di un uomo ridotto a un tale grado di sventura agghiaccia quasi quanto la vista di un cadavere:
+
+> Come quando una dura sventura afferra qualcuno, che nella sua patria  
+> Ha ucciso, e giunge alla dimora altrui,  
+> Di un uomo ricco; un brivido prende quelli che lo vedono;  
+> Così Achille rabbrividì vedendo il divino Priamo.  
+> Anche gli altri rabbrividirono, guardandosi l’un l’altro.
+
+Ma è solo un momento, e ben presto la presenza stessa dello sventurato viene dimenticata:
+
+> Disse. L’altro, pensando a suo padre, desiderò piangerlo;  
+> Prendendolo per il braccio, spinse un poco il vecchio.  
+> Entrambi ricordavano, l’uno Ettore uccisore d’uomini,  
+> E si scioglieva in lacrime ai piedi di Achille, contro terra;  
+> Ma Achille, lui, piangeva suo padre, e a tratti anche  
+> Patroclo; i loro singhiozzi riempivano la dimora.
+
+Non è per insensibilità che Achille, con un gesto, ha spinto a terra il vecchio stretto alle sue ginocchia; le parole di Priamo, evocando il suo vecchio padre, lo hanno commosso fino alle lacrime. Semplicemente, egli si trova a essere tanto libero nei suoi atteggiamenti, nei suoi movimenti, come se, invece di un supplice, fosse un oggetto inerte a toccargli le ginocchia.
+
+Gli esseri umani che ci circondano hanno, con la loro sola presenza, un potere che appartiene soltanto a loro: arrestare, reprimere, modificare ciascuno dei movimenti che il nostro corpo abbozza; un passante non devia il nostro cammino su una strada nello stesso modo di un cartello, non ci si alza, non si cammina, non ci si rimette a sedere nella propria stanza, quando si è soli, nello stesso modo di quando si ha un visitatore.
+
+Ma questa indefinibile influenza della presenza umana non è esercitata dagli uomini che un moto d’impazienza può privare della vita prima ancora che un pensiero abbia avuto il tempo di condannarli a morte. Davanti a loro gli altri si muovono come se non ci fossero; ed essi, a loro volta, nel pericolo in cui si trovano di essere ridotti in un istante a nulla, imitano il nulla.
+
+Spinti, cadono; caduti, rimangono a terra, finché il caso non fa passare nella mente di qualcuno il pensiero di rialzarli. Ma, una volta finalmente rialzati, onorati da parole cordiali, non si azzardino a prendere sul serio questa resurrezione, a osare esprimere un desiderio; una voce irritata li ricondurrebbe subito al silenzio:
+
+> Disse, e il vecchio tremò e obbedì.

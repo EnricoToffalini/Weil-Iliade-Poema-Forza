@@ -1,0 +1,98 @@
+---
+title: "§ 7"
+pagetitle: "Sezione 7"
+description: "Sezione 7 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Nondimeno l’anima sottomessa alla guerra grida verso la liberazione; ma la liberazione stessa le appare sotto una forma tragica, estrema, sotto la forma della distruzione. Una fine moderata, ragionevole, lascerebbe scoperta al pensiero una sventura così violenta da non poter essere sostenuta neppure come ricordo. Il terrore, il dolore, lo sfinimento, i massacri, i compagni distrutti, non si crede che tutte queste cose possano cessare di mordere l’anima se l’ebbrezza della forza non viene ad annegarle.
+
+L’idea che uno sforzo senza limiti possa non aver prodotto che un vantaggio nullo o limitato fa male.
+
+> Come? Lasceremo che Priamo, i Troiani, si vantino  
+> Dell’argiva Elena, lei per cui tanti Greci  
+> Davanti a Troia sono morti lontano dalla terra natale?…  
+> Come? Desideri che la città di Troia dalle larghe strade,  
+> La lasciamo, noi che per essa abbiamo sofferto tante miserie?
+
+Che importa Elena a Ulisse? Che importa perfino Troia, piena di ricchezze che non compenseranno la rovina di Itaca? Troia ed Elena contano soltanto in quanto cause del sangue e delle lacrime dei Greci; impadronendosene, si può diventare padroni di ricordi spaventosi. L’anima che l’esistenza di un nemico ha costretto a distruggere in sé ciò che vi aveva posto la natura non crede di potersi guarire se non con la distruzione del nemico.
+
+Nello stesso tempo, la morte dei compagni amati suscita una cupa emulazione del morire:
+
+> Ah! morire subito, se il mio amico ha dovuto  
+> Soccombere senza il mio aiuto! Ben lontano dalla patria  
+> È perito, e non mi ha avuto accanto a respingere la morte…  
+> Ora parto per ritrovare l’uccisore di una testa tanto cara,  
+> Ettore; la morte, la riceverò nel momento in cui  
+> Zeus vorrà compierla, e tutti gli altri dèi.
+
+La stessa disperazione spinge allora a morire e a uccidere:
+
+> Lo so bene, che il mio destino è perire qui,  
+> Lontano da mio padre e dalla madre amata; ma tuttavia  
+> Non cesserò finché i Troiani non siano sazi di guerra.
+
+L’uomo abitato da questo duplice bisogno di morte appartiene, finché non è diventato altro, a una razza diversa da quella dei viventi.
+
+Quale eco può trovare in simili cuori la timida aspirazione alla vita, quando il vinto supplica che gli sia concesso di vedere ancora il giorno? Già il possesso delle armi da una parte, la privazione delle armi dall’altra, tolgono quasi ogni importanza a una vita minacciata; e come potrebbe colui che ha distrutto in se stesso il pensiero che sia dolce vedere la luce rispettarlo in questa lamentela umile e vana?
+
+> Sono alle tue ginocchia, Achille; abbi riguardo di me, abbi pietà;  
+> Sono qui come supplice, o figlio di Zeus, degno di riguardo.  
+> Perché presso di te per primo ho mangiato il pane di Demetra,  
+> Quel giorno in cui mi prendesti nel mio frutteto ben coltivato.  
+> E mi vendesti, mandandomi lontano da mio padre e dai miei,  
+> Alla sacra Lemno; per me ti fu data un’ecatombe.  
+> Fui riscattato per tre volte tanto; questa aurora per me  
+> Oggi è la dodicesima, da quando sono tornato a Ilio,  
+> Dopo tante sofferenze. Eccomi ancora nelle tue mani  
+> Per un destino funesto. Devo essere odioso a Zeus padre,  
+> Che di nuovo mi consegna a te; per una vita breve mia madre  
+> Mi ha generato, Laotoe, figlia del vecchio Alteo…
+
+Quale risposta accoglie questa debole speranza!
+
+> Su, amico, muori anche tu! Perché ti lamenti tanto?  
+> È morto anche Patroclo, e valeva molto più di te…  
+> E io, non vedi quanto sono bello e grande?  
+> Sono di nobile stirpe, una dea è mia madre;  
+> Ma anche su di me stanno la morte e il duro destino.  
+> Sarà l’aurora, o la sera, o il mezzo del giorno,  
+> Quando anche a me, con le armi, strapperanno la vita…
+
+Per rispettare la vita negli altri quando si è dovuto mutilare se stessi di ogni aspirazione a vivere, occorre uno sforzo di generosità capace di spezzare il cuore. Non si può supporre nessuno dei guerrieri di Omero capace di un simile sforzo, se non forse colui che, in un certo senso, si trova al centro del poema, Patroclo, che «seppe essere mite verso tutti» e che nell’Iliade non compie nulla di brutale o di crudele.
+
+Ma quanti uomini conosciamo, in parecchie migliaia d’anni di storia, che abbiano dato prova di una generosità tanto divina? È dubbio che se ne possano nominare due o tre. In mancanza di questa generosità, il soldato vincitore è come un flagello della natura; posseduto dalla guerra, è diventato una cosa tanto quanto lo schiavo, benché in modo del tutto diverso, e le parole non hanno potere su di lui più di quanto ne abbiano sulla materia.
+
+L’uno e l’altro, a contatto con la forza, ne subiscono l’effetto infallibile, che è quello di rendere coloro che essa tocca o muti o sordi.
+
+Tale è la natura della forza. Il potere che possiede di trasformare gli uomini in cose è duplice e si esercita da entrambe le parti; pietrifica in modo diverso, ma ugualmente, le anime di coloro che la subiscono e di coloro che la maneggiano. Questa proprietà raggiunge il suo grado più alto in mezzo alle armi, dal momento in cui una battaglia si orienta verso una decisione.
+
+Le battaglie non si decidono fra uomini che calcolano, escogitano, prendono una risoluzione e la eseguono, ma fra uomini spogliati di queste facoltà, trasformati, caduti al rango ora della materia inerte, che non è che passività, ora delle forze cieche, che non sono che slancio.
+
+È questo l’ultimo segreto della guerra, e l’Iliade lo esprime attraverso le sue similitudini, nelle quali i guerrieri appaiono simili ora all’incendio, all’inondazione, al vento, alle bestie feroci, a qualunque causa cieca di disastro, ora agli animali impauriti, agli alberi, all’acqua, alla sabbia, a tutto ciò che è mosso dalla violenza delle forze esterne. Greci e Troiani, da un giorno all’altro, talvolta da un’ora all’altra, subiscono a turno l’una e l’altra trasformazione.
+
+> Come da un leone che vuole uccidere sono assalite le vacche  
+> Che in una prateria paludosa e vasta pascolano  
+> A migliaia…; tutte tremano; così allora gli Achei  
+> In preda al panico furono messi in fuga da Ettore e da Zeus padre,  
+> Tutti…
+
+> Come quando il fuoco distruttore piomba nel folto di un bosco;  
+> Dappertutto, turbinando, il vento lo porta; allora i tronchi,  
+> Divelti, cadono sotto l’impeto del fuoco violento;  
+> Così l’Atride Agamennone faceva cadere le teste  
+> Dei Troiani che fuggivano…
+
+L’arte della guerra non è che l’arte di provocare simili trasformazioni, e il materiale, i procedimenti, la morte stessa inflitta al nemico non sono che mezzi a questo fine; il suo vero oggetto è l’anima stessa dei combattenti. Ma queste trasformazioni costituiscono sempre un mistero, e ne sono autori gli dèi, che toccano l’immaginazione degli uomini.
+
+Comunque sia, questa duplice proprietà di pietrificazione è essenziale alla forza, e un’anima posta a contatto con la forza vi sfugge soltanto per una sorta di miracolo. Simili miracoli sono rari e brevi.

@@ -1,0 +1,86 @@
+---
+title: "§ 3"
+pagetitle: "Sezione 3"
+description: "Sezione 3 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Almeno i supplici, una volta esauditi, ridiventano uomini come gli altri. Ma vi sono esseri più sventurati che, senza morire, sono diventati cose per tutta la vita. Nelle loro giornate non c’è alcun gioco, alcun vuoto, alcuno spazio libero per nulla che venga da loro stessi. Non sono uomini che vivono più duramente di altri, collocati socialmente più in basso di altri; è un’altra specie umana, un compromesso fra l’uomo e il cadavere.
+
+Che un essere umano sia una cosa è, dal punto di vista logico, una contraddizione; ma quando l’impossibile è diventato realtà, la contraddizione diventa nell’anima lacerazione. Questa cosa aspira in ogni momento a essere un uomo, una donna, e in nessun momento vi riesce. È una morte che si prolunga per tutta una vita; una vita che la morte ha raggelato molto prima di sopprimerla.
+
+La vergine, figlia di un sacerdote, subirà questa sorte:
+
+> Non la restituirò. Prima la vecchiaia l’avrà raggiunta,  
+> Nella nostra dimora, ad Argo, lontano dalla sua patria,  
+> A correre davanti al telaio, a venire al mio letto.
+
+La giovane donna, la giovane madre, sposa del principe, la subirà:
+
+> E forse un giorno ad Argo tesserai la tela per un’altra  
+> E porterai l’acqua della Messeide o dell’Iperea,  
+> Tuo malgrado, sotto il peso di una dura necessità.
+
+Il bambino, erede dello scettro regale, la subirà:
+
+> Esse certo se ne andranno nel fondo delle navi concave,  
+> Io fra loro; tu, figlio mio, o insieme a me  
+> Mi seguirai e compirai lavori avvilenti,  
+> Penando sotto gli occhi di un padrone senza dolcezza…
+
+Una simile sorte, agli occhi della madre, è per suo figlio temibile quanto la morte stessa; lo sposo vorrebbe essere morto prima di vedere la moglie ridotta a questo; il padre invoca tutti i flagelli del cielo sull’esercito che vi assoggetta sua figlia. Ma in coloro sui quali si abbatte, un destino così brutale cancella le maledizioni, le rivolte, i confronti, le meditazioni sull’avvenire e sul passato, quasi il ricordo. Non spetta allo schiavo essere fedele alla propria città e ai propri morti.
+
+È quando soffre o muore uno di coloro che gli hanno fatto perdere tutto, che hanno devastato la sua città, massacrato i suoi sotto i suoi occhi, è allora che lo schiavo piange. Perché no? Solo allora gli sono permesse le lacrime. Gli sono perfino imposte. Ma nella servitù, le lacrime non sono forse sempre pronte a scorrere non appena possono farlo impunemente?
+
+> Disse piangendo, e le donne presero a gemere,  
+> Con il pretesto di Patroclo, ciascuna sulle proprie angosce.
+
+In nessuna circostanza lo schiavo ha il diritto di esprimere nulla, se non ciò che può compiacere il padrone. Perciò, se in una vita tanto cupa può affiorare un sentimento e animarla un poco, non può essere che l’amore per il padrone; ogni altra via è sbarrata alla facoltà di amare, così come, per un cavallo attaccato al carro, le stanghe, le redini, il morso sbarrano tutte le vie tranne una sola.
+
+E se per miracolo appare la speranza di ridiventare un giorno, per concessione altrui, qualcuno, fino a quale grado non giungeranno la riconoscenza e l’amore per uomini verso i quali un passato ancora così vicino dovrebbe ispirare orrore:
+
+> Mio sposo, al quale mi avevano data mio padre e la venerata madre,  
+> L’ho visto davanti alla mia città trafitto dal bronzo acuto.  
+> I miei tre fratelli, che una sola madre aveva generato per me,  
+> Tanto cari! hanno incontrato il giorno fatale.  
+> Ma tu non mi hai lasciata, quando mio marito dal rapido Achille  
+> Fu ucciso, e distrutta la città del divino Minete,  
+> Versare lacrime; mi hai promesso che il divino Achille  
+> Mi avrebbe presa come sposa legittima e condotta sulle sue navi  
+> A Ftia, a celebrare le nozze fra i Mirmidoni.  
+> Perciò senza tregua ti piango, tu che sei sempre stato mite.
+
+Non si può perdere più di quanto perde lo schiavo; perde tutta la vita interiore. Ne ritrova un poco soltanto quando appare la possibilità di cambiare destino. Tale è l’impero della forza: questo impero si estende quanto quello della natura. Anche la natura, quando entrano in gioco i bisogni vitali, cancella ogni vita interiore e perfino il dolore di una madre:
+
+> Poiché perfino Niobe dai bei capelli pensò a mangiare,  
+> Lei cui dodici figli nella sua casa perirono,  
+> Sei figlie e sei figli nel fiore dell’età.  
+> Questi, Apollo li uccise con il suo arco d’argento  
+> Nella sua collera contro Niobe; quelle, Artemide amante delle frecce.  
+> Perché ella si era fatta uguale a Leto dalle belle guance,  
+> Dicendo: «Lei ha due figli; io ne ho generati molti».  
+> E quei due, benché fossero soltanto due, li fecero morire tutti.  
+> Essi per nove giorni giacquero nella morte; nessuno venne  
+> A seppellirli. Gli uomini erano divenuti pietre per volere di Zeus.  
+> E il decimo giorno furono sepolti dagli dèi del cielo.  
+> Ma lei pensò a mangiare, quando fu stanca delle lacrime.
+
+Mai è stata espressa con tanta amarezza la miseria dell’uomo, che lo rende perfino incapace di sentire la propria miseria.
+
+La forza maneggiata da altri è imperiosa sull’anima come la fame estrema, non appena consiste in un potere perpetuo di vita e di morte. Ed è un dominio tanto freddo, tanto duro, come se fosse esercitato dalla materia inerte. L’uomo che si trova ovunque nella posizione del più debole è, nel cuore delle città, altrettanto solo, più solo ancora di quanto possa esserlo l’uomo perduto in mezzo a un deserto.
+
+> Due giare sono poste sulla soglia di Zeus,  
+> Dove sono i doni che egli dona, cattivi nell’una, buoni nell’altra…  
+> A colui cui fa doni funesti, lo espone agli oltraggi;  
+> L’orrendo bisogno lo caccia attraverso la terra divina;  
+> Egli erra e non riceve riguardo né dagli uomini né dagli dèi.

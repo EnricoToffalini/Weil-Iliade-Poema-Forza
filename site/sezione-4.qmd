@@ -1,0 +1,90 @@
+---
+title: "§ 4"
+pagetitle: "Sezione 4"
+description: "Sezione 4 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Con la stessa impietosità con cui schiaccia, la forza inebria chiunque la possieda, o creda di possederla. Nessuno la possiede veramente. Nell’Iliade gli uomini non si dividono, da una parte, in vinti, schiavi, supplici e, dall’altra, in vincitori, capi; non vi si trova un solo uomo che, in qualche momento, non sia costretto a piegarsi sotto la forza. I soldati, benché liberi e armati, non per questo subiscono meno ordini e oltraggi:
+
+> Ogni uomo del popolo che vedeva e sorprendeva a gridare,  
+> Lo colpiva con lo scettro e lo rimproverava così:  
+> «Miserabile, sta’ tranquillo, ascolta parlare gli altri,  
+> I tuoi superiori. Tu non hai né coraggio né forza,  
+> Non conti nulla in battaglia, nulla nell’assemblea…»
+
+Tersite paga caro parole tuttavia perfettamente ragionevoli, e che somigliano a quelle pronunciate da Achille.
+
+> Lo colpì; lui si curvò, le lacrime gli scorsero fitte,  
+> Un gonfiore sanguinoso gli si formò sulla schiena  
+> Sotto lo scettro d’oro; si sedette ed ebbe paura.  
+> Nel dolore e nello stupore si asciugava le lacrime.  
+> Gli altri, nonostante la loro pena, ne provarono piacere e risero.
+
+Ma lo stesso Achille, questo eroe fiero, invinto, ci viene mostrato fin dall’inizio del poema mentre piange per l’umiliazione e per un dolore impotente, dopo che gli è stata sottratta sotto gli occhi la donna che voleva fare sua sposa, senza che abbia osato opporvisi.
+
+> … Ma Achille  
+> Piangendo si sedette lontano dai suoi, in disparte,  
+> Sulla riva delle onde biancheggianti, lo sguardo sul mare color del vino.
+
+Agamennone ha umiliato deliberatamente Achille, per mostrare che è lui il padrone:
+
+> … Così saprai  
+> Che posso più di te, e ogni altro esiterà  
+> A trattarmi da pari e a tenermi testa.
+
+Ma pochi giorni dopo il comandante supremo piange a sua volta, è costretto ad abbassarsi, a supplicare, e ha il dolore di farlo invano.
+
+Neppure la vergogna della paura è risparmiata a uno solo dei combattenti. Gli eroi tremano come gli altri. Basta una sfida di Ettore per gettare nello sgomento tutti i Greci senza eccezione, salvo Achille e i suoi, che sono assenti:
+
+> Disse, e tutti tacquero e rimasero in silenzio;  
+> Si vergognavano di rifiutare, avevano paura di accettare.
+
+Ma non appena avanza Aiace, la paura cambia campo:
+
+> I Troiani, un brivido di terrore fece venir meno le loro membra;  
+> A Ettore stesso il cuore balzò nel petto;  
+> Ma non gli era più concesso tremare, né rifugiarsi…
+
+Due giorni dopo, Aiace prova a sua volta il terrore:
+
+> Zeus padre, dall’alto, fa salire la paura in Aiace.  
+> Si arresta, atterrito, mette dietro di sé lo scudo a sette pelli,  
+> Trema, guarda smarrito la folla, come una bestia…
+
+Perfino ad Achille capita una volta di tremare e gemere di paura, davanti a un fiume, è vero, non davanti a un uomo. Eccettuato lui, assolutamente tutti ci vengono mostrati, in qualche momento, vinti. A determinare la vittoria, il valore contribuisce meno del destino cieco, rappresentato dalla bilancia d’oro di Zeus:
+
+> In quel momento Zeus padre dispiegò la sua bilancia d’oro.  
+> Vi pose due sorti della morte che tutto falcia,  
+> Una per i Troiani domatori di cavalli, una per i Greci rivestiti di bronzo.  
+> La prese nel mezzo, e fu il giorno fatale dei Greci ad abbassarsi.
+
+Proprio perché cieco, il destino stabilisce una sorta di giustizia, cieca anch’essa, che punisce gli uomini armati con la pena del taglione; l’Iliade l’ha formulata molto prima del Vangelo, e quasi negli stessi termini:
+
+> Ares è giusto, e uccide quelli che uccidono.
+
+Se tutti, nascendo, sono destinati a subire la violenza, questa è una verità alla quale il dominio delle circostanze chiude la mente degli uomini. Il forte non è mai assolutamente forte, né il debole assolutamente debole, ma l’uno e l’altro lo ignorano. Non si credono della stessa specie; né il debole si considera simile al forte, né viene considerato tale da lui.
+
+Chi possiede la forza cammina in un ambiente che non oppone resistenza, senza che nulla, nella materia umana che lo circonda, sia tale da suscitare tra lo slancio e l’atto quel breve intervallo in cui trova posto il pensiero. Dove il pensiero non ha posto, non ne hanno né la giustizia né la prudenza. Per questo quegli uomini armati agiscono con durezza e follia.
+
+La loro arma affonda in un nemico disarmato che è alle loro ginocchia; trionfano su un morente descrivendogli gli oltraggi che il suo corpo subirà; Achille sgozza dodici adolescenti troiani sulla pira di Patroclo con la stessa naturalezza con cui noi tagliamo fiori per una tomba. Nell’usare il loro potere, non sospettano mai che le conseguenze dei loro atti li faranno piegare a loro volta.
+
+Quando con una parola si può far tacere, tremare, obbedire un vecchio, ci si domanda forse se le maledizioni di un sacerdote abbiano importanza agli occhi degli indovini? Ci si astiene dal portar via la donna amata da Achille, quando si sa che lei e lui non potranno che obbedire? Achille, quando gode nel vedere fuggire i miseri Greci, può pensare che quella fuga, che durerà e finirà secondo la sua volontà, costerà la vita al suo amico e a lui stesso? È così che coloro ai quali la sorte presta la forza periscono per avervi fatto troppo affidamento.
+
+Non può essere altrimenti: devono perire. Perché non considerano la propria forza come una quantità limitata, né i loro rapporti con gli altri come un equilibrio tra forze disuguali. Poiché gli altri uomini non impongono ai loro movimenti quel tempo d’arresto dal quale soltanto nascono i riguardi verso i nostri simili, ne concludono che il destino abbia concesso loro ogni licenza, e nessuna ai loro inferiori. Da quel momento vanno oltre la forza di cui dispongono.
+
+Vanno inevitabilmente oltre, ignorando che essa è limitata. Sono allora consegnati senza rimedio al caso, e le cose non obbediscono più. Talvolta il caso li serve; altre volte li danneggia; eccoli esposti nudi alla sventura, senza l’armatura della potenza che proteggeva la loro anima, senza più nulla ormai che li separi dalle lacrime.
+
+Questo castigo di un rigore geometrico, che punisce automaticamente l’abuso della forza, fu il primo oggetto della meditazione presso i Greci. Costituisce l’anima dell’epopea; sotto il nome di Nemesi, è la molla delle tragedie di Eschilo; i Pitagorici, Socrate, Platone partirono da qui per pensare l’uomo e l’universo. Questa nozione divenne familiare ovunque penetrò l’ellenismo.
+
+Forse è questa nozione greca a sopravvivere, sotto il nome di karma, nei paesi d’Oriente impregnati di buddhismo; ma l’Occidente l’ha perduta e non possiede più, in nessuna delle sue lingue, neppure una parola per esprimerla; le idee di limite, di misura, di equilibrio, che dovrebbero determinare la condotta della vita, non hanno più che un impiego servile nella tecnica. Noi siamo geometri soltanto davanti alla materia; i Greci furono anzitutto geometri nell’apprendimento della virtù.

@@ -1,0 +1,80 @@
+---
+title: "§ 9"
+pagetitle: "Sezione 9"
+description: "Sezione 9 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Eppure un simile accumulo di violenze sarebbe freddo senza un accento di amarezza incurabile che si fa sentire continuamente, benché spesso indicato da una sola parola, spesso perfino da una cesura del verso, da un rejet. È per questo che l’Iliade è una cosa unica, per questa amarezza che nasce dalla tenerezza e si stende su tutti gli esseri umani, uguale come la luce del sole. Mai il tono cessa di essere intriso di amarezza, mai però si abbassa fino al lamento.
+
+La giustizia e l’amore, che difficilmente possono trovare posto in questo quadro di violenze estreme e ingiuste, lo bagnano della loro luce senza mai farsi percepire altrimenti che attraverso l’accento. Nulla di prezioso, destinato o no a perire, è disprezzato; la miseria di tutti è esposta senza dissimulazione né disdegno; nessun uomo è posto al di sopra o al di sotto della condizione comune a tutti gli uomini; tutto ciò che viene distrutto è rimpianto.
+
+Vincitori e vinti sono ugualmente vicini, sono allo stesso titolo simili al poeta e all’ascoltatore. Se vi è una differenza, è che forse la sventura dei nemici è sentita più dolorosamente.
+
+> Così cadde là, addormentato da un sonno di bronzo,  
+> Lo sventurato, lontano dalla sua sposa, mentre difendeva i suoi…
+
+Quale accento nell’evocare la sorte dell’adolescente venduto da Achille a Lemno!
+
+> Per undici giorni rallegrò il suo cuore fra coloro che amava,  
+> Tornato da Lemno; il dodicesimo, di nuovo,  
+> Nelle mani di Achille Dio lo consegnò, lui che doveva  
+> Mandarlo nell’Ade, benché non volesse partire.
+
+E la sorte di Euforbo, che ha visto un solo giorno di guerra:
+
+> Il sangue gli inzuppa i capelli simili a quelli delle Grazie…
+
+Quando si piange Ettore:
+
+> … custode delle spose caste e dei piccoli bambini
+
+queste parole bastano a far apparire la castità violata con la forza e i bambini consegnati alle armi. La fonte alle porte di Troia diventa oggetto di un rimpianto straziante, quando Ettore le passa accanto correndo per salvare la propria vita condannata:
+
+> Là si trovavano ampi lavatoi, proprio accanto,  
+> Belli, tutti di pietra, dove le vesti splendenti  
+> Erano lavate dalle donne di Troia e dalle fanciulle tanto belle,  
+> Un tempo, durante la pace, prima che venissero gli Achei.  
+> Di là correvano, l’uno fuggendo, l’altro dietro inseguendo…
+
+Tutta l’Iliade è sotto l’ombra della più grande sventura che vi sia fra gli uomini, la distruzione di una città. Questa sventura non apparirebbe più straziante se il poeta fosse nato a Troia. Ma il tono non è diverso quando si tratta degli Achei che periscono ben lontano dalla patria.
+
+Le brevi evocazioni del mondo della pace fanno male, tanto quest’altra vita, questa vita dei viventi, appare calma e piena:
+
+> Finché fu l’aurora e il giorno salì,  
+> Da entrambe le parti i dardi colpirono, gli uomini caddero.  
+> Ma proprio nell’ora in cui il boscaiolo va a preparare il pasto  
+> Nelle valli dei monti, quando le sue braccia sono sazie  
+> Di abbattere i grandi alberi, e gli sale al cuore il disgusto,  
+> E il desiderio del dolce cibo gli prende le viscere,  
+> A quell’ora, col loro valore, i Danai spezzarono il fronte.
+
+Tutto ciò che è assente dalla guerra, tutto ciò che la guerra distrugge o minaccia, è avvolto di poesia nell’Iliade; i fatti di guerra non lo sono mai. Il passaggio dalla vita alla morte non è velato da alcuna reticenza:
+
+> Allora gli saltarono i denti; da entrambi i lati  
+> Il sangue gli giunse agli occhi; il sangue che dalle labbra e dalle narici  
+> Rendeva, a bocca aperta; la morte lo avvolse nella sua nube nera.
+
+La fredda brutalità dei fatti di guerra non è mascherata da nulla, perché né i vincitori né i vinti sono ammirati, disprezzati o odiati. Il destino e gli dèi decidono quasi sempre le alterne sorti dei combattimenti.
+
+Entro i limiti assegnati dal destino, gli dèi dispongono sovranamente della vittoria e della sconfitta; sono sempre loro a provocare le follie e i tradimenti per mezzo dei quali la pace viene ogni volta impedita; la guerra è cosa loro, e non hanno altri moventi che il capriccio e la malizia.
+
+Quanto ai guerrieri, le similitudini che li fanno apparire, vincitori o vinti, come bestie o cose non possono suscitare né ammirazione né disprezzo, ma soltanto il rimpianto che gli uomini possano essere così trasformati.
+
+La straordinaria equità che ispira l’Iliade ha forse esempi a noi sconosciuti, ma non ha avuto imitatori. A stento si avverte che il poeta è greco e non troiano. Il tono del poema sembra testimoniare direttamente l’origine delle sue parti più antiche; forse la storia non ci darà mai chiarezza su questo punto.
+
+Se si crede, con Tucidide, che ottant’anni dopo la distruzione di Troia gli Achei subirono a loro volta una conquista, ci si può chiedere se questi canti, nei quali il ferro è nominato solo di rado, non siano canti di quei vinti, alcuni dei quali forse andarono in esilio.
+
+Costretti a vivere e morire «ben lontano dalla patria» come i Greci caduti davanti a Troia, avendo perduto, come i Troiani, le loro città, ritrovavano se stessi tanto nei vincitori, che erano i loro padri, quanto nei vinti, la cui miseria somigliava alla loro; la verità di quella guerra ancora vicina poteva apparire loro attraverso gli anni, non essendo velata né dall’ebbrezza dell’orgoglio né dall’umiliazione.
+
+Potevano rappresentarsela insieme da vinti e da vincitori, e conoscere così ciò che mai né vincitori né vinti hanno conosciuto, essendo gli uni e gli altri accecati. Questo non è che un sogno; su tempi così lontani non si può quasi fare altro che sognare.

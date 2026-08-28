@@ -1,0 +1,245 @@
+project:
+  type: book
+  # Il sito reso finisce in docs/, la cartella che GitHub Pages pubblica.
+  output-dir: ../docs
+  resources:
+    - .nojekyll
+    - robots.txt
+    # Immagine delle anteprime social: da sola la chiave `image` non basta a
+    # farla pubblicare.
+    - _immagini/cover.jpg
+
+lang: it-IT
+
+# Etichette degli strumenti nella barra laterale. La traduzione italiana di
+# Quarto lascia in inglese il pulsante di scaricamento e rende «Source Code»
+# con «Eseguire il codice», fuorviante per un link al repository.
+language:
+  tools-download: "Scarica"
+  code-tools-source-code: "Codice e testo su GitHub"
+
+book:
+  title: "L’Iliade, o il poema della forza"
+  subtitle: "Nuova traduzione italiana del saggio del 1940-1941"
+  author: "Simone Weil"
+  # Indirizzo pubblico su GitHub Pages, ricavato dal remote del repository.
+  # È il solo punto in cui l'indirizzo compare come radice: robots.txt e i
+  # metadati qui sotto lo ripetono per esteso perché Quarto non li interpola.
+  site-url: "https://enricotoffalini.github.io/Weil-Iliade-Poema-Forza/"
+  repo-url: "https://github.com/EnricoToffalini/Weil-Iliade-Poema-Forza"
+  description: >-
+    Nuova traduzione italiana integrale di «L’Iliade ou le poème de la force»,
+    il saggio che Simone Weil pubblicò nei «Cahiers du Sud» fra il dicembre 1940
+    e il gennaio 1941: l’Iliade letta come il poema in cui la forza, quella che
+    uccide e quella che fa di un uomo una cosa, è il vero protagonista.
+  # Nessun `cover-image`: in HTML Quarto lo stamperebbe in cima alla pagina
+  # iniziale, dove la copertina non serve. Nel PDF la copertina resta,
+  # disegnata a tutta pagina dal blocco `eso-pic` in coda a questo file.
+  # `image` non si vede nelle pagine: alimenta le anteprime social.
+  image: _immagini/cover.jpg
+  # Nessuna favicon: non c'è un'immagine pensata per quel formato, e la
+  # copertina ridotta a 16 pixel non si leggerebbe.
+  # Nome del PDF: docs/iliade-poema-forza.pdf
+  output-file: "iliade-poema-forza"
+  # Mette il link di scaricamento del PDF nella barra laterale del sito.
+  downloads: [pdf]
+  search: true
+  sidebar:
+    title: "L’Iliade, o il poema della forza — Simone Weil"
+    style: docked
+  page-footer:
+    left: "Simone Weil, *L’Iliade ou le poème de la force*, «Les Cahiers du Sud», 1940-1941."
+    right: "Traduzione italiana &middot; testo derivato da Wikisource, CC BY-SA 4.0."
+  # Le pagine delle sezioni sono generate da scripts/build_site.py. Qui
+  # ciascuna porta l'etichetta con cui compare nella barra laterale e nei
+  # pulsanti precedente/successivo: «Sezione N», leggibile e cliccabile.
+  # Il titolo della pagina resta invece il marcatore discreto «§ N»: le
+  # sezioni sono una divisione redazionale e non vanno scambiate per capitoli
+  # di Simone Weil, che nell'originale non esistono.
+  chapters:
+    - index.qmd
+    - text: "Sezione 1"
+      href: sezione-1.qmd
+    - text: "Sezione 2"
+      href: sezione-2.qmd
+    - text: "Sezione 3"
+      href: sezione-3.qmd
+    - text: "Sezione 4"
+      href: sezione-4.qmd
+    - text: "Sezione 5"
+      href: sezione-5.qmd
+    - text: "Sezione 6"
+      href: sezione-6.qmd
+    - text: "Sezione 7"
+      href: sezione-7.qmd
+    - text: "Sezione 8"
+      href: sezione-8.qmd
+    - text: "Sezione 9"
+      href: sezione-9.qmd
+    - text: "Sezione 10"
+      href: sezione-10.qmd
+    - nota-al-testo.qmd
+
+# Metadati bibliografici: Quarto li rende come tag Highwire/Dublin Core e come
+# blocco citazione, utili a Google Scholar e alle anteprime. L'edizione indicata
+# è quella su cui è condotta la traduzione, non un'edizione italiana a stampa,
+# che non esiste.
+citation:
+  type: chapter
+  title: "L’Iliade, o il poema della forza"
+  author: "Simone Weil"
+  translator: "GPT-5.6 Sol; Claude Opus 5.0"
+  container-title: "La Source grecque"
+  publisher: "Gallimard"
+  publisher-place: "Paris"
+  issued: 1953
+  page: "11-42"
+  language: it
+  note: >-
+    Prima pubblicazione: «Les Cahiers du Sud», dicembre 1940 e gennaio 1941.
+  url: "https://enricotoffalini.github.io/Weil-Iliade-Poema-Forza/"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    open-graph: true
+    twitter-card:
+      card-style: summary
+    # Emette i tag <meta name="citation_*"> per Google Scholar e simili.
+    google-scholar: true
+    include-in-header:
+      text: |
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "name": "L’Iliade, o il poema della forza",
+          "alternateName": "L’Iliade ou le poème de la force",
+          "author": { "@type": "Person", "name": "Simone Weil" },
+          "translator": "GPT-5.6 Sol; Claude Opus 5.0",
+          "inLanguage": "it",
+          "datePublished": "1940",
+          "isBasedOn": "https://fr.wikisource.org/wiki/La_Source_grecque/01/L%E2%80%99Iliade,_ou_le_po%C3%A8me_de_la_force",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://enricotoffalini.github.io/Weil-Iliade-Poema-Forza/",
+          "description": "Nuova traduzione italiana integrale del saggio di Simone Weil, condotta sul testo francese di Wikisource."
+        }
+        </script>
+        <!-- Statistiche di visita. Il contatore `weil` è condiviso, di
+             proposito, con l'altro sito dedicato a Simone Weil: i due
+             progetti si contano insieme. -->
+        <script data-goatcounter="https://weil.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    toc: true
+    toc-depth: 2
+    toc-title: "Contenuti"
+    number-sections: false
+    grid:
+      body-width: 760px
+    anchor-sections: true
+    link-external-newwindow: true
+    fig-responsive: true
+
+  # Versione libro, pagina A5 (148 x 210 mm), pensata per la lettura a schermo
+  # e per la stampa casalinga in fascicoli.
+  pdf:
+    # Rende il saggio continuo: toglie i marcatori «§ N» delle sezioni, e con
+    # essi i cambi di pagina che li accompagnerebbero. Si veda il filtro.
+    filters:
+      - _filtri/struttura-pdf.lua
+      - _filtri/versi-pdf.lua
+    documentclass: scrbook
+    classoption: [oneside]
+    papersize: a5
+    # Margini un po' più larghi del minimo: in A5 la giustezza resta piena
+    # ma il testo non arriva a ridosso del taglio. `footskip` è la distanza
+    # fra il fondo dello specchio e la riga del numero di pagina.
+    geometry:
+      - a5paper
+      - inner=18mm
+      - outer=16mm
+      - top=18mm
+      - bottom=22mm
+      - footskip=32pt
+    fontsize: 11.5pt
+    linestretch: 1.06
+    indent: true
+    # Il saggio è continuo e non ha titoli: un indice avrebbe una voce sola.
+    toc: false
+    number-sections: false
+    colorlinks: true
+    linkcolor: black
+    urlcolor: black
+    include-in-header:
+      text: |
+        % Linux Libertine (in dotazione a TinyTeX) al posto del Latin Modern
+        % predefinito: ha un corsivo più adatto al testo continuo e copre per
+        % intero la punteggiatura francese della trascrizione. I nomi sono
+        % quelli dei file, che TeX trova da sé.
+        \setmainfont{LinLibertine_R.otf}[
+          ItalicFont     = LinLibertine_RI.otf,
+          BoldFont       = LinLibertine_RB.otf,
+          BoldItalicFont = LinLibertine_RBI.otf]
+        \setsansfont{LinBiolinum_R.otf}[
+          ItalicFont     = LinBiolinum_RI.otf,
+          BoldFont       = LinBiolinum_RB.otf,
+          BoldItalicFont = LinBiolinum_RBO.otf]
+        % Le citazioni omeriche stanno in `verse`, e ce le porta il filtro
+        % _filtri/versi-pdf.lua: `verse` rientra le sole righe di ricaduta, così
+        % che in A5 un verso troppo lungo per la giustezza si riconosca come
+        % continuazione e non come verso nuovo. Qui si aggiungono il corpo
+        % minore. I due rientri sono quelli dell'ambiente di base (che outdenta
+        % l'attacco del verso di 1.5em rispetto alla ricaduta): non si carica il
+        % pacchetto `verse` per poterli ritoccare, perché quello che fa da sé
+        % basta e non aggiunge una dipendenza.
+        \usepackage{etoolbox}
+        \AtBeginEnvironment{verse}{\small}
+        % Nella giustezza stretta dell'A5 le parole non spezzabili sborderebbero
+        % nel margine: meglio qualche riga con gli spazi un po' larghi.
+        \setlength{\emergencystretch}{3em}
+        \sloppy
+        % ------------------------------------------------------------------
+        % Copertina
+        %
+        % Il frontespizio di scrbook impagina in un ordine suo (titolo, poi
+        % sottotitolo, poi autore) e stampa il titolo in nero, su una riga
+        % sola: non è la copertina voluta. Invece di piegare `\maketitle` a
+        % forza di ganci, lo si riscrive per intero — è più corto e si legge.
+        %
+        % L'impaginazione riproduce il modello: autore in alto in maiuscoletto
+        % spaziato, titolo in tondo su due righe di corpo diverso, indicazione
+        % di genere in corsivo. Tutto centrato, nel terzo alto della pagina,
+        % dove il disegno è cielo vuoto.
+        %
+        % Il titolo è spezzato a mano dopo la virgola: dove vada l'a-capo è una
+        % scelta di questa copertina, non un dato del libro, e non deve
+        % ricadere sul titolo dichiarato in `book: title`.
+        %
+        % L'immagine è 2:3, la pagina A5 è 148:210: se ne impone la larghezza
+        % ancorandola in basso, così riempie la pagina senza deformarsi e
+        % l'eccedenza è tagliata in alto, dove c'è solo cielo. `\AddTo...BG*`
+        % vale per la sola pagina che sta per uscire.
+        \usepackage{eso-pic}
+        \renewcommand{\maketitle}{%
+          \begin{titlepage}%
+            \AddToShipoutPictureBG*{%
+              \AtPageLowerLeft{%
+                \includegraphics[width=\paperwidth]{%
+                  \detokenize{_immagini/cover.jpg}}}}%
+            \centering
+            % Le misure sono tarate sul modello confrontando, in millimetri,
+            % larghezza e quota di ciascuna riga: il modello è disegnato su una
+            % pagina 2:3, e ragionare in percentuali d'altezza avrebbe portato
+            % fuori squadro su una pagina A5.
+            \vspace*{-8.5mm}%
+            {\fontsize{14pt}{18pt}\selectfont\scshape
+             \addfontfeature{LetterSpace=30}Simone Weil\par}%
+            \vspace{9mm}%
+            {\fontsize{41pt}{45pt}\selectfont L’Iliade,\par}%
+            \vspace{1.2mm}%
+            {\fontsize{30pt}{35pt}\selectfont o il poema della forza\par}%
+            \vspace{7mm}%
+            {\fontsize{12pt}{15pt}\selectfont\itshape Saggio\par}%
+            \vfill
+          \end{titlepage}%
+        }

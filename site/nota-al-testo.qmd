@@ -1,0 +1,123 @@
+---
+title: "Nota al testo"
+description: >-
+  Fonte, edizione di riferimento e criteri della traduzione italiana di
+  «L’Iliade, o il poema della forza» di Simone Weil: testo francese da
+  Wikisource, sezioni redazionali, differenza fra la resa sul web e il PDF
+  continuo.
+---
+
+## Il testo francese
+
+Il testo di riferimento è:
+
+> Simone Weil, «L’Iliade ou le poème de la force», in *La Source grecque*,
+> Paris, Gallimard, 1953, pp. 11-42.
+
+Il saggio era uscito in due puntate nei *Cahiers du Sud*, fra il dicembre 1940
+e il gennaio 1941, con lo pseudonimo Émile Novis; *La Source grecque* è la
+raccolta postuma in cui è stato ristampato, ed è l'edizione da cui dipende la
+trascrizione digitale usata qui.
+
+La fonte digitale del francese è la
+[trascrizione di Wikisource](https://fr.wikisource.org/wiki/La_Source_grecque/01/L%E2%80%99Iliade,_ou_le_po%C3%A8me_de_la_force),
+dove il testo risulta validato. Il progetto la conserva in
+`corpus/fr/iliade-poeme-force.md`, insieme alla rappresentazione strutturata
+`corpus/fr/iliade-poeme-force.json` che ne registra i duecento blocchi: un
+titolo, 139 paragrafi di prosa, 59 citazioni omeriche e la nota di Simone Weil.
+Le impronte dei file sono in `corpus/manifest.yml`.
+
+## La traduzione italiana
+
+La traduzione è **integrale e nuova**, condotta sul francese di Simone Weil;
+non sono state usate traduzioni italiane esistenti. È realizzata da GPT-5.6
+Sol, con l'ausilio di Claude Opus 5.0.
+
+- **Fedeltà al testo.** Ortografia, lessico, punteggiatura, corsivi e nota
+  d'autrice sono lasciati per quanto possibile come nel testo francese di
+  partenza. Nessuna modernizzazione né normalizzazione linguistica.
+- **Le citazioni omeriche** sono tradotte dal francese, non dal greco: sono già
+  una traduzione, e Simone Weil ne dichiara i criteri nella sua unica nota — la
+  traduzione dei passi citati è nuova, ogni riga traduce un verso greco, rigetti
+  ed enjambement sono riprodotti scrupolosamente. Gli a-capo sono conservati
+  verso per verso, per quanto la lingua italiana lo permetta: sono parte di ciò
+  che l'autrice ha voluto mostrare, e ritradurli in prosa continua cancellerebbe
+  proprio quello che il saggio addita.
+- **Glossario.** L'unico termine con una politica dedicata è *malheur*: parola
+  concettualmente marcata in Simone Weil, e qui più che altrove, valutata di
+  volta in volta nel contesto e mai risolta con una sostituzione automatica.
+
+Il testo italiano entra nel progetto un blocco per volta, dentro
+`corpus/it/iliade-poema-forza.md`, che ricalca la stessa sequenza di duecento
+blocchi del francese: ciascuno ha il proprio identificatore stabile, e dove il
+testo non è ancora al suo posto resta un segnaposto esplicito che lo dichiara.
+Le sezioni, gli indirizzi delle pagine e la resa in PDF non dipendono dal
+riempimento dei blocchi e non cambiano.
+
+## Interventi sul Markdown
+
+Sul testo francese non è stato fatto alcun intervento di contenuto. Gli unici
+ritocchi sono tecnici e riguardano la forma del file, non le parole: i versi
+delle citazioni sono tenuti uno per riga da un a-capo forzato, e ogni blocco
+del corpus italiano è preceduto da un commento che ne dichiara l'identificatore
+e il tipo. Le righe di puntini che nell'originale segnano un'omissione sono
+lasciate dove stanno.
+
+## Le sezioni numerate
+
+::: {.content-visible when-format="html"}
+
+Il saggio è continuo: **non ha capitoli e non ha titoli interni**. Una sola
+pagina web di diecimila parole però non si legge, e il testo è stato quindi
+diviso in dieci sezioni.
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+Il saggio è continuo: **non ha capitoli e non ha titoli interni**. Nel sito, per
+renderlo leggibile, è stato diviso in dieci sezioni; in questo PDF la divisione
+non compare, e il testo scorre come un unico saggio.
+
+:::
+
+La divisione è **redazionale**, introdotta unicamente per la consultazione. Per
+questo:
+
+- le sezioni **non hanno titoli**. Un titolo come «La forza che uccide» o «La
+  misura greca» sarebbe un'interpretazione, e finirebbe per essere attribuito a
+  Simone Weil, che non ne ha scritti;
+- i punti di cesura cadono sempre fra un paragrafo e l'altro, mai dentro una
+  citazione omerica, e sono stati scelti dove l'argomentazione compie una
+  svolta effettiva. Sono dichiarati in `site/sezioni.yml` e agganciati agli
+  identificatori dei blocchi, non a stringhe di testo;
+- nella barra laterale ogni sezione è indicata come **«Sezione N»**, perché sia
+  una voce leggibile e cliccabile; nella pagina resta invece il solo marcatore
+  discreto **«§ N»**, che segnala la cesura senza fingere un titolo;
+- gli indirizzi sono semplici e stabili — `sezione-1.html`, `sezione-2.html` e
+  così via — e non contengono parole tematiche, che sarebbero anch'esse
+  un'interpretazione.
+
+## Sito e PDF
+
+Le due rese sono volutamente diverse.
+
+Nel **sito** ogni sezione è una pagina a sé, con la navigazione
+precedente/successivo e il marcatore «§ N» in cima.
+
+Nel **PDF** — formato A5, pensato anche per la stampa casalinga in fascicoli —
+il saggio è continuo: nessun marcatore di sezione, nessun cambio di pagina fra
+una sezione e l'altra, nessun titolo che possa essere scambiato per una
+divisione dell'autrice. Il testo è lo stesso, e viene dal medesimo corpus: non
+esistono due copie.
+
+## Licenze
+
+Il codice del progetto è distribuito con licenza MIT. La rappresentazione
+derivata dalla trascrizione Wikisource è distribuita con licenza CC BY-SA 4.0,
+coerentemente con la fonte, e la provenienza è registrata in
+`corpus/manifest.yml`; la traduzione italiana, che ne deriva, è distribuita
+alle stesse condizioni. Il testo originale di Simone Weil, morta nel 1943,
+risulta nel pubblico dominio nell'Unione Europea. I diritti sulle opere
+sottostanti possono dipendere dalla giurisdizione: si veda il file `LICENSE`
+del repository.

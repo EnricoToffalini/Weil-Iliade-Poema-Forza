@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Cache di lavoro di Quarto. La resa in docs/ è invece versionata:
+# è quella che GitHub Pages pubblica.
+site/.quarto/
+
+# Editor e sistemi operativi.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,56 @@
+---
+title: "§ 10"
+pagetitle: "Sezione 10"
+description: "Sezione 10 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Comunque sia, questo poema è una cosa miracolosa. L’amarezza vi si rivolge alla sola giusta causa di amarezza, la subordinazione dell’anima umana alla forza, vale a dire, in ultima analisi, alla materia. Questa subordinazione è la stessa per tutti i mortali, benché l’anima la sopporti diversamente secondo il grado di virtù. Nell’Iliade nessuno ne è sottratto, così come nessuno ne è sottratto sulla terra. Nessuno di coloro che vi soccombono è per questo considerato spregevole.
+
+Tutto ciò che, nell’intimo dell’anima e nei rapporti umani, sfugge al dominio della forza è amato, ma amato dolorosamente, a causa del pericolo di distruzione che vi rimane continuamente sospeso. Questo è lo spirito dell’unica vera epopea che l’Occidente possieda. L’Odissea sembra non essere che un’eccellente imitazione, ora dell’Iliade, ora di poemi orientali; l’Eneide è un’imitazione che, per quanto brillante, è guastata dalla freddezza, dalla declamazione e dal cattivo gusto.
+
+Le chansons de geste non hanno saputo raggiungere la grandezza per mancanza di equità; la morte di un nemico non è sentita dall’autore e dal lettore, nella Chanson de Roland, come la morte di Rolando.
+
+La tragedia attica, almeno quella di Eschilo e di Sofocle, è la vera continuazione dell’epopea. Il pensiero della giustizia la illumina senza mai intervenirvi; la forza vi appare nella sua fredda durezza, sempre accompagnata dagli effetti funesti ai quali non sfugge né chi ne fa uso né chi la subisce; l’umiliazione dell’anima sotto la costrizione non vi è né dissimulata, né avvolta in una facile pietà, né proposta al disprezzo; più di un essere ferito dalla degradazione della sventura vi è offerto all’ammirazione.
+
+Il Vangelo è l’ultima e meravigliosa espressione del genio greco, come l’Iliade ne è la prima; lo spirito della Grecia vi si lascia vedere non soltanto nel fatto che vi è comandato di cercare, a esclusione di ogni altro bene, «il regno e la giustizia del nostro Padre celeste», ma anche nel fatto che vi è esposta la miseria umana, e questo in un essere insieme divino e umano.
+
+I racconti della Passione mostrano che uno spirito divino, unito alla carne, è alterato dalla sventura, trema davanti alla sofferenza e alla morte, si sente, nel fondo dell’angoscia, separato dagli uomini e da Dio. Il sentimento della miseria umana conferisce loro quell’accento di semplicità che è il segno del genio greco, e che costituisce tutto il pregio della tragedia attica e dell’Iliade.
+
+Alcune parole hanno un suono stranamente vicino a quello dell’epopea, e torna alla memoria l’adolescente troiano mandato nell’Ade, benché non volesse partire, quando Cristo dice a Pietro: «Un altro ti cingerà e ti condurrà dove tu non vuoi andare». Questo accento è inseparabile dal pensiero che ispira il Vangelo; perché il sentimento della miseria umana è una condizione della giustizia e dell’amore.
+
+Chi ignora fino a che punto la mutevole fortuna e la necessità tengano ogni anima umana sotto la loro dipendenza non può considerare come propri simili né amare come se stesso coloro che il caso ha separato da lui mediante un abisso. La diversità delle costrizioni che gravano sugli uomini fa nascere l’illusione che vi siano fra loro specie distinte incapaci di comunicare. È possibile amare ed essere giusti soltanto se si conosce il dominio della forza e se si sa non rispettarlo.
+
+I rapporti dell’anima umana con il destino, in quale misura ogni anima modelli la propria sorte, ciò che un’impietosa necessità trasforma in un’anima qualunque essa sia secondo il capriccio della sorte mutevole, ciò che per effetto della virtù e della grazia può rimanere intatto: è questa una materia nella quale la menzogna è facile e seducente. L’orgoglio, l’umiliazione, l’odio, il disprezzo, l’indifferenza, il desiderio di dimenticare o di ignorare, tutto contribuisce a suscitarne la tentazione.
+
+In particolare, nulla è più raro di una giusta espressione della sventura; nel rappresentarla, si finge quasi sempre di credere ora che la degradazione sia una vocazione innata dello sventurato, ora che un’anima possa portare la sventura senza riceverne il segno, senza che essa trasformi tutti i pensieri in un modo che appartiene soltanto a lei.
+
+I Greci, il più delle volte, ebbero la forza d’animo che permette di non mentire a se stessi; ne furono ricompensati e seppero raggiungere in ogni cosa il più alto grado di lucidità, di purezza e di semplicità. Ma lo spirito che si è trasmesso dall’Iliade al Vangelo passando attraverso i pensatori e i poeti tragici non ha quasi oltrepassato i confini della civiltà greca; e da quando la Grecia è stata distrutta, non ne sono rimasti che riflessi.
+
+I Romani e gli Ebrei credettero, gli uni e gli altri, di essere sottratti alla comune miseria umana: i primi in quanto nazione scelta dal destino per essere padrona del mondo, i secondi per il favore del loro Dio e nella misura esatta in cui gli obbedivano. I Romani disprezzavano gli stranieri, i nemici, i vinti, i loro sudditi, i loro schiavi; perciò non ebbero né epopee né tragedie. Sostituivano le tragedie con i giochi dei gladiatori.
+
+Gli Ebrei vedevano nella sventura il segno del peccato e, di conseguenza, un motivo legittimo di disprezzo; consideravano i loro nemici vinti come oggetto d’orrore perfino per Dio e condannati a espiare dei crimini, il che rendeva la crudeltà permessa e perfino indispensabile. Perciò nessun testo dell’Antico Testamento ha un suono paragonabile a quello dell’epopea greca, se non forse alcune parti del poema di Giobbe.
+
+Romani ed Ebrei sono stati ammirati, letti, imitati negli atti e nelle parole, citati ogni volta che vi era da giustificare un crimine, durante venti secoli di cristianesimo.
+
+Inoltre lo spirito del Vangelo non si è trasmesso puro alle generazioni successive di cristiani. Fin dai primi tempi si credette di vedere un segno della grazia, nei martiri, nel fatto di sopportare con gioia le sofferenze e la morte; come se gli effetti della grazia potessero andare più lontano negli uomini che in Cristo.
+
+Coloro che pensano che Dio stesso, una volta divenuto uomo, non abbia potuto avere davanti agli occhi il rigore del destino senza tremarne d’angoscia, avrebbero dovuto comprendere che possono elevarsi in apparenza al di sopra della miseria umana soltanto gli uomini che mascherano ai propri occhi il rigore del destino con l’aiuto dell’illusione, dell’ebbrezza o del fanatismo. L’uomo che non è protetto dall’armatura di una menzogna non può subire la forza senza esserne colpito fin nell’anima.
+
+La grazia può impedire che questo colpo lo corrompa, ma non può impedire la ferita. Per averlo troppo dimenticato, la tradizione cristiana ha saputo ritrovare solo molto raramente la semplicità che rende struggente ogni frase dei racconti della Passione. D’altra parte, l’abitudine di convertire con la costrizione ha velato gli effetti della forza sull’anima di coloro che la maneggiano.
+
+Malgrado la breve ebbrezza provocata, durante il Rinascimento, dalla scoperta della letteratura greca, il genio della Grecia non è risorto nel corso di venti secoli. Qualcosa di esso appare in Villon, Shakespeare, Cervantes, Molière, e una volta in Racine.
+
+La miseria umana è messa a nudo, a proposito dell’amore, nella Scuola delle mogli, in Fedra; secolo strano, del resto, in cui, al contrario dell’età epica, era permesso intravedere la miseria dell’uomo soltanto nell’amore, mentre gli effetti della forza nella guerra e nella politica dovevano essere sempre avvolti di gloria. Si potrebbero forse citare ancora altri nomi. Ma nulla di ciò che hanno prodotto i popoli d’Europa vale il primo poema conosciuto apparso presso uno di essi.
+
+Forse ritroveranno il genio epico quando sapranno non credere nulla al riparo dalla sorte, non ammirare mai la forza, non odiare i nemici e non disprezzare gli sventurati. È dubbio che ciò avvenga presto.

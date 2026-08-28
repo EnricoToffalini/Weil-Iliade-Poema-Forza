@@ -1,0 +1,72 @@
+# Cesure editoriali del saggio.
+#
+# «L'Iliade ou le poème de la force» è un testo continuo: Simone Weil non lo
+# divide in capitoli e non gli dà titoli interni. Questo file NON modifica il
+# corpus: dichiara soltanto in quali punti `scripts/build_site.py` lo taglia
+# per generare le pagine `site/sezione-N.qmd` del sito.
+#
+# La divisione è redazionale e serve alla sola lettura sul web: nel PDF il
+# saggio torna continuo, senza titoli e senza cambi di pagina. È dichiarata
+# come tale nella «Nota al testo».
+#
+# Ogni voce è l'identificatore del primo blocco della sezione, preso dalla
+# rappresentazione strutturata del francese (`corpus/fr/iliade-poeme-force.json`)
+# e ripetuto nei marcatori del corpus italiano. Legare le cesure agli
+# identificatori, e non a stringhe di testo, le rende insensibili alla futura
+# traduzione: riempire i segnaposti italiani non sposta né le sezioni né gli URL.
+#
+# Vincoli, verificati da `scripts/validate_corpus.py`:
+#   * gli inizi sono in ordine crescente e senza ripetizioni;
+#   * ogni sezione comincia con un blocco di prosa, mai con dei versi: una
+#     citazione omerica segue sempre la prosa che la introduce, e non deve mai
+#     restare separata da essa;
+#   * la prima sezione assorbe il titolo del saggio (h001), che la precede.
+#
+# I punti sono stati scelti leggendo il testo, in corrispondenza di una svolta
+# effettiva dell'argomentazione. Le note qui sotto descrivono la svolta: sono
+# promemoria redazionali interni, non titoli, e non compaiono da nessuna parte
+# nel sito né nel PDF.
+
+inizi_sezione:
+
+  # § 1 — h001-p007. La forza è il vero eroe del poema; la forza che uccide e
+  #       fa del vivo un cadavere.  «Le vrai héros… c'est la force.»
+  - p001
+
+  # § 2 — «La force qui tue est une forme sommaire, grossière de la force»:
+  #       si passa dalla forza che uccide a quella che non uccide ancora, e
+  #       che pietrifica il supplice.
+  - p008
+
+  # § 3 — «Mais il est des êtres plus malheureux qui, sans mourir, sont devenus
+  #       des choses pour toute leur vie»: la condizione dello schiavo.
+  - p021
+
+  # § 4 — «Aussi impitoyablement la force écrase, aussi impitoyablement elle
+  #       enivre quiconque la possède»: nessuno possiede davvero la forza;
+  #       fino al castigo di rigore geometrico e alla misura greca.
+  - p033
+
+  # § 5 — «La marche de la guerre, dans l'Iliade, ne consiste qu'en ce jeu de
+  #       bascule»: il racconto dell'altalena fra Achei e Troiani.
+  - p051
+
+  # § 6 — «Ils sont tombés dans cette situation par le piège le plus simple»:
+  #       la guerra come trappola, e il tempo che si chiude sul combattente.
+  - p067
+
+  # § 7 — «Néanmoins l'âme soumise à la guerre crie vers la délivrance»: il
+  #       doppio bisogno di morire e di uccidere; la doppia pietrificazione.
+  - p076
+
+  # § 8 — «Il en résulterait une morne monotonie, s'il n'y avait… des moments
+  #       lumineux»: i momenti in cui gli uomini ritrovano un'anima, e l'amore.
+  - p092
+
+  # § 9 — «Pourtant une telle accumulation de violences serait froide sans un
+  #       accent d'inguérissable amertume»: il tono del poema e la sua equità.
+  - p103
+
+  # § 10 — «Quoi qu'il en soit, ce poème est une chose miraculeuse»: l'unicità
+  #        dell'Iliade e la sua discendenza, fino alla conclusione sull'Europa.
+  - p120

@@ -1,0 +1,62 @@
+---
+title: "L’Iliade, o il poema della forza"
+pagetitle: "L’Iliade, o il poema della forza — Simone Weil"
+description: >-
+  Nuova traduzione italiana integrale di «L’Iliade ou le poème de la force», il
+  saggio che Simone Weil pubblicò nei «Cahiers du Sud» fra il dicembre 1940 e il
+  gennaio 1941: l’Iliade letta come il poema in cui la forza è il vero
+  protagonista.
+format:
+  html:
+    # La pagina d'apertura non ha bisogno dell'indice nel margine destro.
+    toc: false
+---
+
+Queste pagine ospitano una nuova traduzione italiana integrale di *L’Iliade ou
+le poème de la force*, il saggio che Simone Weil pubblicò in due puntate nei
+*Cahiers du Sud*, fra il dicembre 1940 e il gennaio 1941, firmandolo con lo
+pseudonimo Émile Novis; lo aveva scritto a Marsiglia. La traduzione italiana è
+realizzata da GPT-5.6 Sol, con l'ausilio di Claude Opus 5.0.
+
+Vi si legge l'*Iliade* come il poema in cui la forza è il vero protagonista:
+quella che uccide e fa di un uomo un cadavere, e l'altra, più varia e più
+sorprendente, che non uccide e fa di un uomo una cosa che resta viva. Vincitori
+e vinti sono guardati con la stessa equità, perché nessuno possiede davvero la
+forza e nessuno le sfugge. È il testo in cui prende forma il *malheur*, la
+sventura, che attraverserà tutto il pensiero successivo di Simone Weil.
+
+::: {.segnaposto}
+**Il testo italiano è in corso di inserimento.** Il testo francese è acquisito e
+strutturato, e le pagine delle sezioni esistono già con i loro indirizzi
+definitivi; dove il testo italiano non è ancora al suo posto si trova un
+segnaposto che lo dichiara.
+:::
+
+::: {.content-visible when-format="html"}
+
+## Le sezioni
+
+Il saggio è continuo: Simone Weil non lo divide in capitoli e non gli dà titoli
+interni. Per renderlo leggibile sul web è stato diviso in dieci sezioni
+numerate, senza titoli, e nel PDF torna continuo. La divisione è redazionale ed
+è spiegata nella [Nota al testo](nota-al-testo.qmd).
+
+1. [Sezione 1](sezione-1.qmd)
+2. [Sezione 2](sezione-2.qmd)
+3. [Sezione 3](sezione-3.qmd)
+4. [Sezione 4](sezione-4.qmd)
+5. [Sezione 5](sezione-5.qmd)
+6. [Sezione 6](sezione-6.qmd)
+7. [Sezione 7](sezione-7.qmd)
+8. [Sezione 8](sezione-8.qmd)
+9. [Sezione 9](sezione-9.qmd)
+10. [Sezione 10](sezione-10.qmd)
+
+:::
+
+Il testo francese di riferimento è quello della
+[trascrizione validata su Wikisource](https://fr.wikisource.org/wiki/La_Source_grecque/01/L%E2%80%99Iliade,_ou_le_po%C3%A8me_de_la_force),
+condotta sul testo di *La Source grecque* (Gallimard, Parigi 1953, pp. 11-42),
+la raccolta postuma in cui il saggio è stato ristampato. I criteri della
+traduzione e degli interventi editoriali sono nella
+[Nota al testo](nota-al-testo.qmd).

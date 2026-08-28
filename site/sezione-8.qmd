@@ -1,0 +1,72 @@
+---
+title: "§ 8"
+pagetitle: "Sezione 8"
+description: "Sezione 8 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+La leggerezza di coloro che maneggiano senza riguardo gli uomini e le cose che hanno, o credono di avere, alla propria mercé, la disperazione che costringe il soldato a distruggere, lo schiacciamento dello schiavo e del vinto, i massacri, tutto contribuisce a formare un quadro uniforme d’orrore. La forza ne è l’unico eroe. Ne risulterebbe una cupa monotonia, se non vi fossero, disseminati qua e là, momenti luminosi; momenti brevi e divini in cui gli uomini hanno un’anima.
+
+L’anima che così si desta, per un istante, per perdersi poco dopo sotto il dominio della forza, si desta pura e intatta; non vi appare alcun sentimento ambiguo, complicato o torbido; soltanto il coraggio e l’amore vi hanno posto. Talvolta un uomo ritrova così la propria anima deliberando con se stesso, quando tenta, come Ettore davanti a Troia, senza soccorso degli dèi o degli uomini, di affrontare da solo il destino.
+
+Gli altri momenti in cui gli uomini ritrovano la propria anima sono quelli in cui amano; quasi nessuna forma pura dell’amore fra gli uomini è assente dall’Iliade.
+
+La tradizione dell’ospitalità, anche dopo parecchie generazioni, prevale sull’accecamento del combattimento:
+
+> Così io sono per te un ospite amato nel cuore di Argo…  
+> Evitiamo le lance l’uno dell’altro, anche nella mischia.
+
+L’amore del figlio per i genitori, del padre, della madre per il figlio, è continuamente indicato in modo tanto breve quanto commovente:
+
+> Rispose Teti, versando lacrime:  
+> «Mi sei nato per una vita breve, figlio mio, come dici…»
+
+Così pure l’amore fraterno:
+
+> I miei tre fratelli, che una sola madre aveva generato per me,  
+> Tanto cari…
+
+L’amore coniugale, condannato alla sventura, è di una purezza sorprendente. Lo sposo, evocando le umiliazioni della schiavitù che attendono la donna amata, omette quella il cui solo pensiero macchierebbe in anticipo la loro tenerezza. Nulla è più semplice delle parole rivolte dalla sposa a colui che sta per morire:
+
+> … Sarebbe meglio per me,  
+> Se ti perdo, essere sotto terra; non avrò più  
+> Altro rifugio, quando avrai incontrato il tuo destino,  
+> Nient’altro che mali…
+
+Non meno commoventi sono le parole rivolte allo sposo morto:
+
+> Mio sposo, sei morto prima del tempo, così giovane; e me, tua vedova,  
+> Lasci sola nella mia casa; nostro figlio ancora così piccolo  
+> Che abbiamo avuto tu e io, sventurati. E non penso  
+> Che mai diventerà grande…  
+> ....................  
+> Perché morendo non mi hai teso le mani dal tuo letto,  
+> Non hai detto una parola saggia, perché sempre  
+> Io vi pensi giorno e notte versando lacrime.
+
+La più bella amicizia, quella fra compagni d’armi, costituisce il tema degli ultimi canti:
+
+> … Ma Achille  
+> Piangeva, pensando al compagno amato; il sonno,  
+> Che tutto doma, non lo prese; si rigirava qua e là…
+
+Ma il trionfo più puro dell’amore, la grazia suprema delle guerre, è l’amicizia che sorge nel cuore di nemici mortali. Essa fa scomparire la fame di vendetta per il figlio ucciso, per l’amico ucciso; cancella, con un miracolo ancora più grande, la distanza fra benefattore e supplice, fra vincitore e vinto:
+
+> Ma quando il desiderio di bere e di mangiare fu placato,  
+> Allora il dardanide Priamo si mise ad ammirare Achille,  
+> Quanto fosse grande e bello; aveva il volto di un dio.  
+> E a sua volta il dardanide Priamo fu ammirato da Achille,  
+> Che guardava il suo bel volto e ascoltava la sua parola.  
+> E quando si furono saziati di contemplarsi l’un l’altro
+
+Questi momenti di grazia sono rari nell’Iliade, ma bastano a far sentire con estremo rimpianto ciò che la violenza fa e farà perire.

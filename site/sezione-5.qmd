@@ -1,0 +1,119 @@
+---
+title: "§ 5"
+pagetitle: "Sezione 5"
+description: "Sezione 5 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+L’andamento della guerra, nell’Iliade, non consiste che in questo gioco d’altalena. Il vincitore del momento si sente invincibile, quand’anche poche ore prima abbia conosciuto la sconfitta; dimentica di servirsi della vittoria come di una cosa destinata a passare.
+
+Alla fine della prima giornata di combattimento narrata dall’Iliade, i Greci vittoriosi potrebbero senza dubbio ottenere l’oggetto dei loro sforzi, cioè Elena e le sue ricchezze; almeno se si suppone, come fa Omero, che l’esercito greco avesse ragione di credere Elena a Troia. I sacerdoti egiziani, che dovevano saperlo, affermarono più tardi a Erodoto che si trovava in Egitto. Comunque sia, quella sera i Greci non ne vogliono più:
+
+> «Non si accettino ormai né i beni di Paride,  
+> Né Elena; ognuno vede, anche il più ignorante,  
+> Che Troia è ormai sull’orlo della rovina.»  
+> Disse; e tutti gli Achei acclamarono.
+
+Ciò che vogliono non è niente di meno che tutto. Tutte le ricchezze di Troia come bottino, tutti i palazzi, i templi e le case ridotti in cenere, tutte le donne e tutti i bambini come schiavi, tutti gli uomini come cadaveri. Dimenticano un particolare: che tutto non è in loro potere; perché non sono dentro Troia. Forse vi saranno domani; forse non vi saranno.
+
+Ettore, quello stesso giorno, si abbandona alla medesima dimenticanza:
+
+> Perché questo lo so bene nelle viscere e nel cuore;  
+> Verrà un giorno in cui perirà la sacra Ilio,  
+> E Priamo, e il popolo di Priamo dalla buona lancia.  
+> Ma penso meno al dolore che si prepara per i Troiani,  
+> E alla stessa Ecuba, e a Priamo re,  
+> E ai miei fratelli che, così numerosi e così valorosi,  
+> Cadranno nella polvere sotto i colpi dei nemici,  
+> Che a te, quando uno dei Greci dalla corazza di bronzo  
+> Ti trascinerà tutta in lacrime, togliendoti la libertà.  
+> ....................  
+> Ma io, che possa essere morto e la terra avermi ricoperto  
+> Prima di udirti gridare, di vederti trascinata!
+
+Che cosa non offrirebbe in quel momento per allontanare orrori che crede inevitabili? Ma non può offrire nulla che non sia vano. Due giorni dopo i Greci fuggono miseramente, e lo stesso Agamennone vorrebbe riprendere il mare. Ettore, che cedendo allora ben poco otterrebbe facilmente la partenza del nemico, non vuole più nemmeno permettergli di andarsene a mani vuote:
+
+> Accendiamo ovunque fuochi e il loro splendore salga al cielo  
+> Per timore che nella notte i Greci dai lunghi capelli  
+> Per fuggire si slancino sull’ampio dorso dei mari…  
+> Che più d’uno abbia una freccia da digerire anche a casa sua,  
+> ...... affinché tutti temano  
+> Di portare ai Troiani domatori di cavalli la guerra che fa piangere.
+
+Il suo desiderio è esaudito; i Greci restano; e il giorno dopo, a mezzogiorno, fanno di lui e dei suoi uno spettacolo pietoso:
+
+> Essi, attraverso la pianura, fuggivano come vacche  
+> Che un leone incalza davanti a sé, giunto nel cuore della notte…  
+> Così li inseguiva il potente Atride Agamennone,  
+> Uccidendo senza tregua l’ultimo; ed essi fuggivano.
+
+Nel corso del pomeriggio, Ettore riprende il sopravvento, arretra ancora, poi mette in rotta i Greci, quindi viene respinto da Patroclo e dalle sue truppe fresche. Patroclo, spingendo il proprio vantaggio oltre le sue forze, finisce per trovarsi esposto, senz’armatura e ferito, alla spada di Ettore; e la sera Ettore vittorioso accoglie con aspri rimproveri il prudente consiglio di Polidamante:
+
+> «Ora che ho ricevuto dal figlio dell’astuto Crono  
+> La gloria presso le navi, ricacciando al mare i Greci,  
+> Stolto! non proporre simili consigli davanti al popolo.  
+> Nessun Troiano ti ascolterà; io non lo permetterei.»  
+> Così parlò Ettore, e i Troiani lo acclamarono…
+
+Il giorno dopo Ettore è perduto. Achille lo ha fatto arretrare attraverso tutta la pianura e sta per ucciderlo. È sempre stato il più forte dei due in combattimento; quanto più ora, dopo parecchie settimane di riposo, trascinato dalla vendetta e dalla vittoria, contro un nemico sfinito! Ecco Ettore solo davanti alle mura di Troia, completamente solo, ad attendere la morte e a cercare di disporre la propria anima ad affrontarla.
+
+> Ahimè! se passassi dietro la porta e il bastione,  
+> Polidamante per primo mi coprirebbe di vergogna…  
+> Ora che ho perduto i miei per la mia follia,  
+> Temo i Troiani e le Troiane dai veli fluenti  
+> E di sentirmi dire da qualcuno meno valoroso di me:  
+> «Ettore, troppo fiducioso nella sua forza, ha perduto il paese.»  
+> E se tuttavia posassi il mio scudo ricurvo,  
+> Il mio buon elmo, e, appoggiando la lancia al bastione,  
+> Andassi incontro all’illustre Achille?…  
+> Ma perché dunque il mio cuore mi dà questi consigli?  
+> Non mi avvicinerei a lui; non avrebbe pietà,  
+> Né riguardo; mi ucciderebbe, se fossi così nudo,  
+> Come una donna…
+
+Ettore non sfugge a nessuno dei dolori e delle vergogne che sono la sorte degli sventurati. Solo, spogliato di ogni prestigio della forza, il coraggio che lo ha trattenuto fuori dalle mura non lo preserva dalla fuga:
+
+> Ettore, vedendolo, fu preso dal tremore. Non riuscì a risolversi  
+> A rimanere…  
+> … Non è per una pecora o per una pelle di bue  
+> Che gareggiano, premi consueti della corsa;  
+> È per una vita che corrono, quella di Ettore domatore di cavalli.
+
+Ferito a morte, accresce il trionfo del vincitore con vane suppliche:
+
+> Ti supplico per la tua vita, per le tue ginocchia, per i tuoi genitori…
+
+Ma gli ascoltatori dell’Iliade sapevano che la morte di Ettore avrebbe dato ad Achille una breve gioia, e la morte di Achille una breve gioia ai Troiani, e l’annientamento di Troia una breve gioia agli Achei.
+
+Così la violenza schiaccia coloro che tocca. Finisce per apparire esterna tanto a chi la maneggia quanto a chi la subisce; allora nasce l’idea di un destino sotto il quale carnefici e vittime sono ugualmente innocenti, vincitori e vinti fratelli nella medesima miseria. Il vinto è causa di sventura per il vincitore quanto il vincitore per il vinto.
+
+> Un solo figlio gli è nato, per una vita breve; e inoltre,  
+> Invecchia senza le mie cure, poiché, ben lontano dalla patria,  
+> Rimango davanti a Troia a fare del male a te e ai tuoi figli.
+
+Un uso moderato della forza, il solo che permetterebbe di sfuggire all’ingranaggio, richiederebbe una virtù più che umana, rara quanto una dignità costante nella debolezza. Del resto, neppure la moderazione è sempre priva di pericolo; perché il prestigio, che costituisce la forza per più di tre quarti, è fatto anzitutto della superba indifferenza del forte verso i deboli, indifferenza così contagiosa da comunicarsi a coloro che ne sono l’oggetto.
+
+Ma di solito non è un pensiero politico a consigliare l’eccesso. È la tentazione dell’eccesso a essere quasi irresistibile. Nell’Iliade vengono talvolta pronunciate parole ragionevoli; quelle di Tersite lo sono al massimo grado. Lo sono anche quelle di Achille adirato:
+
+> Nulla vale per me quanto la vita, neppure tutti i beni che si dice  
+> Contenga Ilio, la città così prospera…  
+> Perché si possono conquistare buoi, grasse pecore…  
+> Una vita umana, una volta perduta, non si riconquista più.
+
+Ma le parole ragionevoli cadono nel vuoto. Se a pronunciarle è un inferiore, viene punito e tace; se è un capo, non conforma ad esse le proprie azioni. E all’occorrenza si trova sempre un dio a consigliare la stoltezza. Alla fine scompare dalla mente perfino l’idea che si possa voler sfuggire all’occupazione assegnata in sorte, quella di uccidere e morire:
+
+> … noi ai quali Zeus  
+> Fin dalla giovinezza ha assegnato, fino alla vecchiaia, di penare  
+> In dolorose guerre, finché periamo fino all’ultimo.
+
+Già questi combattenti, come tanto tempo dopo quelli di Craonne, si sentivano «tutti condannati».

@@ -1,0 +1,414 @@
+/* L'Iliade, o il poema della forza — foglio di stile del sito italiano.
+   Poche regole, tutte al servizio della lettura continua di un saggio.
+   Il carattere è quello predefinito del tema Quarto (cosmo), cioè la pila
+   sans-serif di sistema: non viene ridefinito qui. */
+
+/* ---- palette ------------------------------------------------------------ */
+
+/* Un solo colore attraversa il sito: il rosso fuoco della forza che uccide e
+   dell'incendio di Troia. Va però tenuto a freno, perché qui si legge di
+   seguito per pagine e un rosso squillante su ogni riga stancherebbe: il pieno
+   compare solo dove serve un tratto netto (collegamenti, voce corrente,
+   filetto dei segnaposti), sui menù resta una velatura calda quasi bianca, e
+   il grigio del testo secondario è virato al caldo per non stonare.
+
+   I due rossi sono scelti anche per contrasto: 5,6:1 il chiaro e 8,6:1 lo
+   scuro su fondo bianco, entrambi oltre la soglia AA per il testo. */
+
+:root {
+  --if-rosso: #c62a1c;
+  --if-rosso-scuro: #8f2418;
+  --if-tenue: #7a6a66;
+  --if-filetto: #ecdcd8;
+  --if-fondo-tenue: #fbf6f4;
+  --if-fondo-menu: #f9f3f1;
+  --if-evidenza: #f7ddd8;
+}
+
+/* Il tema cosmo porta un azzurro elettrico su collegamenti, evidenziazioni e
+   voci correnti: qui rientra tutto nella stessa tinta. */
+:root {
+  --bs-link-color: var(--if-rosso);
+  --bs-link-color-rgb: 198, 42, 28;
+  --bs-link-hover-color: var(--if-rosso-scuro);
+  --bs-link-hover-color-rgb: 143, 36, 24;
+  --bs-highlight-bg: var(--if-evidenza);
+  --bs-focus-ring-color: rgb(198 42 28 / 25%);
+}
+
+/* La selezione è l'unico punto in cui il rosso pieno invade il testo: dura
+   quanto il gesto di chi sta selezionando, e lì il colore deve farsi vedere.
+   Il bianco su questo rosso resta oltre la soglia AA (5,6:1). */
+::selection {
+  background: var(--if-rosso);
+  color: #fff;
+}
+
+/* ---- corpo del testo ---------------------------------------------------- */
+
+#quarto-document-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* ---- marcatore di sezione ----------------------------------------------- */
+
+/* Il titolo delle pagine di sezione è «§ N»: un segno di cesura, non un
+   titolo di capitolo. Le sezioni sono una divisione redazionale, e il testo di
+   Simone Weil non ha titoli interni: il marcatore deve restare piccolo e
+   discreto, appena sopra il primo paragrafo. */
+
+/* La classe arriva dal front matter delle pagine generate (`body-classes`):
+   è il solo modo pulito per distinguere in CSS una pagina di sezione dalle
+   altre. Il marcatore resta allineato a sinistra, spento, in corpo minore. */
+
+/* Niente filetto sotto: una riga orizzontale sopra il testo darebbe al
+   marcatore l'aria di un titolo di capitolo, che è proprio ciò che non deve
+   sembrare. Il segno di paragrafo, piccolo e spento, basta. */
+body.pagina-sezione #title-block-header h1.title {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--if-tenue);
+  margin-bottom: 2rem;
+}
+
+/* La stessa pagina non ha sottotitolo né altri metadati: senza questa regola
+   il blocco del titolo lascerebbe sotto di sé uno stacco sproporzionato. */
+body.pagina-sezione #title-block-header {
+  margin-bottom: 0;
+}
+
+/* ---- segnaposti della traduzione ---------------------------------------- */
+
+/* Finché la traduzione non c'è, ogni pagina porta un cartello che lo dice.
+   Non deve poter essere scambiato per testo: filetto tratteggiato, fondo
+   spento, corpo minore. */
+
+.segnaposto {
+  margin: 0 0 2.25rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px dashed var(--if-filetto);
+  border-left: 3px solid var(--if-rosso);
+  border-radius: 4px;
+  background: var(--if-fondo-tenue);
+  color: var(--if-tenue);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+#quarto-document-content .segnaposto p {
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+
+.segnaposto p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- citazioni omeriche -------------------------------------------------- */
+
+/* I versi vanno uno per riga. Quando la giustezza non basta, la ricaduta
+   rientra: si vede subito che è la continuazione di un verso e non un verso
+   nuovo. Niente corsivo e niente virgolette: la citazione si riconosce dalla
+   colonna, come nella stampa. */
+
+#quarto-document-content blockquote {
+  margin: 1.8rem 0 1.8rem 0;
+  padding: 0 0 0 1.4rem;
+  border-left: 2px solid var(--if-filetto);
+  color: inherit;
+}
+
+#quarto-document-content blockquote p {
+  margin-bottom: 0;
+  font-size: 1.02rem;
+  line-height: 1.62;
+  text-align: left;
+  hyphens: none;
+  padding-left: 1.4em;
+  text-indent: -1.4em; /* rientro di ricaduta sui versi troppo lunghi */
+}
+
+/* ---- titoli ------------------------------------------------------------- */
+
+h2, h3 {
+  margin-top: 2.75rem;
+  font-weight: 600;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+/* ---- menù dei capitoli e indice della pagina ---------------------------- */
+
+/* I due menù si staccano dalla colonna di lettura, che resta bianca. */
+#quarto-sidebar,
+#quarto-margin-sidebar:has(#TOC) {
+  background-color: var(--if-fondo-menu);
+}
+
+#quarto-sidebar .sidebar-title > a {
+  color: var(--if-rosso-scuro);
+}
+
+div.sidebar-item-container {
+  color: var(--if-tenue);
+}
+
+div.sidebar-item-container:hover,
+div.sidebar-item-container:focus {
+  color: var(--if-rosso-scuro);
+}
+
+div.sidebar-item-container .active,
+div.sidebar-item-container .show > .nav-link {
+  color: var(--if-rosso);
+}
+
+.sidebar nav[role="doc-toc"] > ul a {
+  border-left-color: var(--if-filetto);
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+  border-left-color: var(--if-rosso);
+  color: var(--if-rosso) !important;
+}
+
+/* L'indice della pagina è alto quanto le sue voci: come riquadro arrotondato
+   sembra deliberato, come fascia troncata a metà no. La condizione `:has`
+   evita il riquadro vuoto sulle pagine senza titoli interni — cioè su tutte
+   le sezioni, dove l'indice è disattivato. */
+#quarto-margin-sidebar:has(#TOC) {
+  margin-top: 0.5rem;
+  padding: 1rem 0.9rem 1.2rem;
+  border-radius: 6px;
+}
+
+#TOC, #quarto-sidebar {
+  font-size: 0.85rem;
+}
+
+/* Le voci della barra laterale sono corte («Sezione 1»): basta poco respiro. */
+#quarto-sidebar .sidebar-item {
+  margin-bottom: 0.45rem;
+}
+
+#quarto-sidebar .sidebar-item-text {
+  line-height: 1.35;
+}
+
+#TOC li {
+  margin-bottom: 0.5rem;
+}
+
+#toc-title {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--if-tenue);
+}
+
+/* ---- note a piè di pagina ---------------------------------------------- */
+
+#footnotes, .footnotes {
+  font-size: 0.88rem;
+  color: var(--if-tenue);
+}
+
+/* ---- centratura della pagina -------------------------------------------- */
+
+/* Quarto appoggia la griglia (menù, colonna di lettura, indice) al bordo
+   sinistro e lascia tutto lo spazio in eccesso a destra. Sugli schermi larghi
+   il blocco viene invece centrato, con la stessa larghezza massima per il
+   contenuto e per il piè di pagina, così che il menù cominci sempre allo
+   stesso punto passando da una sezione all'altra. */
+
+:root {
+  --if-larghezza-pagina: 1414px;
+}
+
+@media (min-width: 992px) {
+  #quarto-content.page-columns {
+    max-width: var(--if-larghezza-pagina);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer.footer .nav-footer {
+    max-width: var(--if-larghezza-pagina);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
+
+/* ---- scaricamento del PDF ----------------------------------------------- */
+
+/* Quarto riduce il rimando al PDF a una piccola icona accanto al titolo della
+   barra laterale, dove nessuno la cerca. Qui diventa una riga leggibile sotto
+   il titolo. */
+
+#quarto-sidebar .sidebar-tools-main {
+  display: block;
+  margin: 0.35rem 0 0.15rem;
+}
+
+#quarto-sidebar .sidebar-tools-main .quarto-navigation-tool {
+  display: flex; /* ogni strumento su una riga propria */
+  align-items: baseline;
+  gap: 0.4rem;
+  padding-left: 0;
+  font-size: 0.8rem;
+  color: var(--if-tenue);
+}
+
+/* L'etichetta accanto all'icona dipende dallo strumento: senza questo vincolo
+   verrebbe scritto «Scarica il saggio in PDF» anche accanto al link al
+   repository, che invece porta a GitHub. */
+#quarto-sidebar .sidebar-tools-main .quarto-navigation-tool[href$=".pdf"]::after {
+  content: "Scarica il saggio in PDF";
+}
+
+#quarto-sidebar .sidebar-tools-main .quarto-navigation-tool[href*="github.com"]::after {
+  content: "Codice e testo su GitHub";
+}
+
+#quarto-sidebar .sidebar-tools-main .quarto-navigation-tool:hover::after {
+  text-decoration: underline;
+}
+
+/* ---- ricerca ------------------------------------------------------------ */
+
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item {
+  background-color: var(--if-rosso);
+}
+
+.aa-DetachedOverlay li.aa-Item[aria-selected="true"] .search-item mark.search-match,
+#quarto-search-results li.aa-Item[aria-selected="true"] .search-item mark.search-match {
+  color: #fff;
+  background-color: rgb(255 255 255 / 25%);
+}
+
+.aa-DetachedOverlay li.aa-Item[aria-selected="false"] .search-item mark.search-match,
+#quarto-search-results li.aa-Item[aria-selected="false"] .search-item mark.search-match {
+  background-color: var(--if-evidenza);
+}
+
+/* ---- schermi piccoli ---------------------------------------------------- */
+
+@media (max-width: 991.98px) {
+  html {
+    scroll-padding-top: 7rem;
+  }
+
+  /* L'unico tratto marcato del sito: la barra fissa che sul telefono prende il
+     posto del menù laterale. Sul blu pieno scritte e icone vanno in bianco,
+     comprese quelle che il tema lascerebbe grigie. */
+  nav.quarto-secondary-nav {
+    background-color: var(--if-rosso-scuro);
+    border-bottom-color: var(--if-rosso-scuro);
+  }
+
+  .quarto-secondary-nav,
+  .quarto-secondary-nav a,
+  .quarto-secondary-nav .btn,
+  .quarto-secondary-nav .quarto-btn-toggle,
+  .quarto-secondary-nav .quarto-search-button,
+  .quarto-secondary-nav .chapter-title,
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs,
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs a,
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs .breadcrumb-item::before {
+    color: #fff;
+  }
+
+  .quarto-secondary-nav .btn:hover,
+  .quarto-secondary-nav .btn:focus,
+  .quarto-secondary-nav nav.quarto-page-breadcrumbs a:hover {
+    color: #fff;
+    opacity: 0.75;
+  }
+
+  .quarto-secondary-nav .btn:focus-visible {
+    box-shadow: 0 0 0 0.2rem rgb(255 255 255 / 30%);
+  }
+
+  /* Il menù delle sezioni si apre sotto la barra: resta chiaro come a schermo
+     largo, con un filetto della stessa famiglia. */
+  #quarto-sidebar.sidebar-navigation {
+    border-bottom-color: var(--if-filetto);
+  }
+
+  .quarto-secondary-nav .container-fluid,
+  .quarto-secondary-nav .quarto-page-breadcrumbs,
+  .quarto-secondary-nav .breadcrumb,
+  .quarto-secondary-nav .breadcrumb-item {
+    min-width: 0;
+  }
+
+  .quarto-secondary-nav .quarto-page-breadcrumbs {
+    overflow: hidden;
+  }
+
+  .quarto-secondary-nav .breadcrumb-item,
+  .quarto-secondary-nav .breadcrumb-item a,
+  .quarto-secondary-nav .chapter-title {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #quarto-document-content h1,
+  #quarto-document-content h2,
+  #quarto-document-content h3 {
+    line-height: 1.38;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+
+  #quarto-document-content h1 {
+    font-size: clamp(1.65rem, 7vw, 2rem);
+  }
+
+  #quarto-document-content h2 {
+    font-size: clamp(1.3rem, 5.6vw, 1.65rem);
+  }
+}
+
+@media (max-width: 575.98px) {
+  #quarto-document-content p {
+    font-size: 1.03rem;
+    line-height: 1.62;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+
+  #quarto-document-content h2 {
+    margin-top: 2.2rem;
+  }
+
+  /* In una colonna stretta il rientro di ricaduta dei versi mangia troppo:
+     resta, ma ridotto. */
+  #quarto-document-content blockquote {
+    padding-left: 0.9rem;
+  }
+
+  #quarto-document-content blockquote p {
+    font-size: 0.98rem;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
+  .segnaposto {
+    padding: 0.75rem 0.85rem;
+    font-size: 0.88rem;
+  }
+}

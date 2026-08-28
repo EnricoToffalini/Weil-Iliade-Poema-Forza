@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://enricotoffalini.github.io/Weil-Iliade-Poema-Forza/sitemap.xml

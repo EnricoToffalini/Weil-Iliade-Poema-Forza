@@ -1,0 +1,50 @@
+Licensing notice
+================
+
+Source code in `scripts/`, the Lua filter in `site/_filtri/`, the stylesheet
+and the build script are released under the MIT License:
+
+Copyright (c) 2026 the project contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Four distinct things are kept apart in this repository:
+
+1. **Simone Weil's original work.** "L'Iliade ou le poeme de la force" was
+   first published in "Les Cahiers du Sud" (December 1940 and January 1941)
+   and reprinted in "La Source grecque" (Gallimard, Paris 1953, pp. 11-42).
+   Simone Weil died in 1943; the text is in the public domain in the European
+   Union. Rights in the underlying work can vary by jurisdiction, and this
+   notice does not replace an independent rights assessment.
+
+2. **The Wikisource transcription.** The French Markdown in `corpus/fr/` and
+   its structured representation derive from the validated French Wikisource
+   transcription, and are provided under CC BY-SA 4.0, consistently with that
+   source. Attribution and the source URL are recorded in
+   `corpus/manifest.yml`.
+
+3. **The new Italian translation** in `corpus/it/`, made by GPT-5.6 Sol with
+   the assistance of Claude Opus 5.0. It derives from the Wikisource-based
+   representation above and is provided under the same CC BY-SA 4.0 terms.
+   Where the Italian text is not yet in place, the file carries an explicit
+   placeholder saying so.
+
+4. **The project code**, covered by the MIT License above.
+
+CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/

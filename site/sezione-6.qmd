@@ -1,0 +1,41 @@
+---
+title: "§ 6"
+pagetitle: "Sezione 6"
+description: "Sezione 6 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Sono caduti in questa situazione attraverso la trappola più semplice. All’inizio, il loro cuore è leggero, come sempre quando si ha dalla propria parte una forza e contro di sé il vuoto. Le armi sono nelle loro mani; il nemico è assente. Tranne quando l’anima è abbattuta dalla fama del nemico, si è sempre molto più forti di un assente. Un assente non impone il giogo della necessità.
+
+Nessuna necessità appare ancora alla mente di coloro che partono così, ed è per questo che partono come per un gioco, come per una vacanza fuori dalla costrizione quotidiana.
+
+> Dove sono finite le nostre vanterie, quando ci dicevamo così valorosi,  
+> Quelle che a Lemno declamavate con tanta presunzione,  
+> Rimpinzandovi delle carni dei buoi dalle corna dritte,  
+> Bevendo da coppe traboccanti di vino?  
+> Che a cento o duecento di questi Troiani ciascuno  
+> Avrebbe tenuto testa in battaglia; ed ecco che uno solo è troppo per noi!
+
+Anche una volta sperimentata, la guerra non cessa subito di sembrare un gioco. La necessità propria della guerra è terribile, del tutto diversa da quella legata ai lavori della pace; l’anima vi si sottomette solo quando non può più sfuggirle; e finché le sfugge trascorre giorni vuoti di necessità, giorni di gioco, di sogno, arbitrari e irreali.
+
+Il pericolo allora è un’astrazione, le vite che si distruggono sono come giocattoli rotti da un bambino e altrettanto indifferenti; l’eroismo è una posa teatrale, insozzata di vanteria. Se inoltre, per un momento, un afflusso di vita viene a moltiplicare la potenza d’agire, ci si crede irresistibili in virtù di un aiuto divino che garantisce contro la sconfitta e la morte. La guerra allora è facile e vilmente amata.
+
+Ma nella maggior parte degli uomini questo stato non dura. Viene un giorno in cui la paura, la sconfitta, la morte dei compagni amati fanno piegare l’anima del combattente sotto la necessità. La guerra allora cessa di essere un gioco o un sogno; il guerriero comprende infine che essa esiste realmente. È una realtà dura, infinitamente troppo dura per poter essere sopportata, perché racchiude la morte. Il pensiero della morte non può essere sostenuto, se non per lampi, non appena si sente che la morte è davvero possibile.
+
+È vero che ogni uomo è destinato a morire, e che un soldato può invecchiare tra i combattimenti; ma per coloro la cui anima è sottomessa al giogo della guerra, il rapporto tra la morte e l’avvenire non è lo stesso che per gli altri uomini. Per gli altri la morte è un limite imposto in anticipo all’avvenire; per loro è l’avvenire stesso, l’avvenire che assegna loro la loro professione. Che degli uomini abbiano per avvenire la morte, questo è contro natura.
+
+Non appena la pratica della guerra ha reso sensibile la possibilità di morte racchiusa in ogni minuto, il pensiero diventa incapace di passare da un giorno al successivo senza attraversare l’immagine della morte. La mente è allora tesa come può sopportare di esserlo soltanto per poco tempo; ma ogni nuova alba reca la stessa necessità; i giorni aggiunti ai giorni fanno gli anni. L’anima subisce violenza ogni giorno.
+
+Ogni mattina l’anima si mutila di ogni aspirazione, perché il pensiero non può viaggiare nel tempo senza passare attraverso la morte. Così la guerra cancella ogni idea di scopo, perfino l’idea degli scopi della guerra. Cancella perfino il pensiero di porre fine alla guerra. La possibilità di una situazione tanto violenta è inconcepibile finché non ci si trova dentro; la sua fine è inconcepibile quando ci si è dentro. Così non si fa nulla per provocare quella fine.
+
+Le braccia non possono cessare di impugnare e maneggiare le armi in presenza di un nemico armato; la mente dovrebbe escogitare una via d’uscita; ha perduto ogni capacità di escogitare qualcosa a questo scopo. È interamente occupata a farsi violenza. Sempre, fra gli uomini, si tratti di servitù o di guerra, le sventure intollerabili durano per il loro stesso peso e sembrano così, viste dal di fuori, facili da sopportare; durano perché tolgono le risorse necessarie per uscirne.

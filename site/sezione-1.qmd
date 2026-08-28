@@ -1,0 +1,51 @@
+---
+title: "§ 1"
+pagetitle: "Sezione 1"
+description: "Sezione 1 di 10 di «L’Iliade, o il poema della forza» di Simone Weil («L’Iliade ou le poème de la force», 1940-1941). Testo integrale della sezione nella traduzione italiana."
+format:
+  html:
+    # La sezione non ha titoli interni: un indice di pagina sarebbe vuoto.
+    toc: false
+    # Distingue in CSS le pagine di sezione: il loro titolo è il
+    # marcatore «§ N» e va reso in piccolo, non come titolo di capitolo.
+    body-classes: pagina-sezione
+---
+
+<!-- Pagina generata da scripts/build_site.py a partire da
+     corpus/it/iliade-poema-forza.md e da site/sezioni.yml.
+     Non modificare a mano: le correzioni vanno fatte nel corpus. -->
+
+Il vero eroe, il vero soggetto, il centro dell’Iliade è la forza. La forza maneggiata dagli uomini, la forza che sottomette gli uomini, la forza davanti alla quale la carne degli uomini si ritrae. L’anima umana vi appare incessantemente modificata dai suoi rapporti con la forza, trascinata, accecata dalla forza di cui crede di disporre, piegata sotto la costrizione della forza che subisce.
+
+Coloro che avevano sognato che la forza, grazie al progresso, appartenesse ormai al passato, hanno potuto vedere in questo poema un documento; coloro che sanno discernere la forza, oggi come un tempo, al centro di tutta la storia umana, vi trovano il più bello, il più puro degli specchi.
+
+La forza è ciò che fa di chiunque le sia sottomesso una cosa. Quando si esercita fino in fondo, fa dell’uomo una cosa nel senso più letterale, perché ne fa un cadavere. C’era qualcuno e, un istante dopo, non c’è più nessuno. È un quadro che l’Iliade non si stanca di presentarci:
+
+> … i cavalli  
+> Facevano risuonare i carri vuoti per le vie della guerra,  
+> In lutto per i loro aurighi senza biasimo. Essi a terra  
+> Giacevano, molto più cari agli avvoltoi che alle loro spose.[^1]
+
+L’eroe è una cosa trascinata dietro un carro nella polvere:
+
+> … Tutt’intorno, i capelli  
+> Neri erano sparsi, e il capo intero nella polvere  
+> Giaceva, un tempo bello; ora Zeus ai suoi nemici  
+> Aveva concesso di avvilirlo sulla sua terra natale.
+
+L’amarezza di un simile quadro, la assaporiamo pura, senza che alcuna finzione rassicurante venga ad alterarla, alcuna immortalità consolatrice, alcuna scialba aureola di gloria o di patria.
+
+> La sua anima fuori dalle membra volò via, se ne andò nell’Ade,  
+> Piangendo il proprio destino, lasciando la virilità e la giovinezza.
+
+Ancora più struggente, tanto doloroso è il contrasto, è l’improvvisa evocazione, subito cancellata, di un altro mondo, il mondo lontano, precario e commovente della pace, della famiglia, quel mondo in cui ogni uomo è per coloro che lo circondano ciò che più conta.
+
+> Gridava alle sue ancelle dai bei capelli per la dimora  
+> Di porre accanto al fuoco un grande tripode, perché vi fosse  
+> Per Ettore un bagno caldo al ritorno dalla battaglia.  
+> Ingenua! Non sapeva che ben lontano dai bagni caldi  
+> Il braccio di Achille lo aveva soggiogato, a causa di Atena dagli occhi verdi.
+
+Certo, era lontano dai bagni caldi, lo sventurato. Non era il solo. Quasi tutta l’Iliade si svolge lontano dai bagni caldi. Quasi tutta la vita umana si è sempre svolta lontano dai bagni caldi.
+
+[^1]: **Nota di S. Weil.** La traduzione dei passi citati è nuova. Ogni riga traduce un verso greco; i rejet e gli enjambement sono scrupolosamente riprodotti; l’ordine delle parole greche all’interno di ogni verso è rispettato per quanto possibile.
